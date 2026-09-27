@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-27T13:17:16-06:00",
+  "fetched": "2026-09-27T13:23:48-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -1311,9 +1311,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 71.5,
+        "benchlm": 71.6,
         "huggingface": null,
-        "composite": 71.5,
+        "composite": 71.6,
         "split": null
       },
       "reasoning": {
@@ -1493,8 +1493,8 @@
       },
       "reasoning": {
         "benchlm": null,
-        "huggingface": 57.5,
-        "composite": 57.5,
+        "huggingface": 57.6,
+        "composite": 57.6,
         "split": null
       },
       "knowledge": {
@@ -2784,13 +2784,13 @@
       "coding": {
         "benchlm": 57.2,
         "huggingface": 62.1,
-        "composite": 59.7,
+        "composite": 59.65,
         "split": 4.9
       },
       "reasoning": {
         "benchlm": 75.9,
         "huggingface": 69.4,
-        "composite": 72.7,
+        "composite": 72.65,
         "split": 6.5
       },
       "knowledge": {
@@ -2961,9 +2961,9 @@
       "sources_present": 2,
       "coding": {
         "benchlm": 54.9,
-        "huggingface": 75.5,
-        "composite": 65.2,
-        "split": 20.6
+        "huggingface": 75.6,
+        "composite": 65.25,
+        "split": 20.7
       },
       "reasoning": {
         "benchlm": null,
@@ -3032,20 +3032,20 @@
       "sources_present": 2,
       "coding": {
         "benchlm": 37.7,
-        "huggingface": 65.3,
-        "composite": 51.5,
-        "split": 27.6
+        "huggingface": 65.4,
+        "composite": 51.55,
+        "split": 27.7
       },
       "reasoning": {
         "benchlm": 75.2,
         "huggingface": 55.9,
-        "composite": 65.5,
+        "composite": 65.55,
         "split": 19.3
       },
       "knowledge": {
         "benchlm": 45.7,
         "huggingface": 86.2,
-        "composite": 66,
+        "composite": 65.95,
         "split": 40.5
       },
       "math": {
@@ -3139,7 +3139,7 @@
       "coding": {
         "benchlm": 32.7,
         "huggingface": 72.4,
-        "composite": 52.6,
+        "composite": 52.55,
         "split": 39.7
       },
       "reasoning": {
@@ -3631,19 +3631,19 @@
       "coding": {
         "benchlm": 36.4,
         "huggingface": 61.5,
-        "composite": 49,
+        "composite": 48.95,
         "split": 25.1
       },
       "reasoning": {
         "benchlm": 71.4,
         "huggingface": 53.7,
-        "composite": 62.6,
+        "composite": 62.55,
         "split": 17.7
       },
       "knowledge": {
         "benchlm": 42.1,
         "huggingface": 85.2,
-        "composite": 63.7,
+        "composite": 63.65,
         "split": 43.1
       },
       "math": {
@@ -3702,62 +3702,62 @@
       "coding": {
         "benchlm": 38.9,
         "huggingface": 60.8,
-        "composite": 49.8,
+        "composite": 49.85,
         "split": 21.9
       },
       "reasoning": {
         "benchlm": 55.1,
         "huggingface": 62.4,
-        "composite": 58.8,
+        "composite": 58.75,
         "split": 7.3
       },
       "knowledge": {
         "benchlm": 47.8,
         "huggingface": 87.1,
-        "composite": 67.4,
+        "composite": 67.45,
         "split": 39.3
       },
       "math": {
         "benchlm": 62.1,
         "huggingface": 95.8,
-        "composite": 79,
+        "composite": 78.95,
         "split": 33.7
       }
     },
     {
-      "name": "DeepSeek-R1",
+      "name": "GLM-5.1",
       "names": [
-        "DeepSeek-R1",
-        "deepseek-ai/DeepSeek-R1"
+        "GLM-5.1",
+        "zai-org/GLM-5.1"
       ],
       "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.5
+        "benchlm": 1.0,
+        "huggingface": 0.75
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
+        "benchlm": 50.9,
+        "huggingface": 58.4,
+        "composite": 54.65,
+        "split": 7.5
       },
       "reasoning": {
-        "benchlm": 60.4,
-        "huggingface": 71.5,
-        "composite": 66,
-        "split": 11.1
+        "benchlm": 72.7,
+        "huggingface": 63.9,
+        "composite": 68.3,
+        "split": 8.8
       },
       "knowledge": {
-        "benchlm": 38.7,
-        "huggingface": 84,
-        "composite": 61.4,
-        "split": 45.3
+        "benchlm": 52.3,
+        "huggingface": null,
+        "composite": 52.3,
+        "split": null
       },
       "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
+        "benchlm": 63.8,
+        "huggingface": 95.3,
+        "composite": 79.55,
+        "split": 31.5
       }
     },
     {
@@ -3796,39 +3796,39 @@
       }
     },
     {
-      "name": "GLM-5.1",
+      "name": "DeepSeek-R1",
       "names": [
-        "GLM-5.1",
-        "zai-org/GLM-5.1"
+        "DeepSeek-R1",
+        "deepseek-ai/DeepSeek-R1"
       ],
       "reliability": {
-        "benchlm": 1.0,
-        "huggingface": 0.75
+        "benchlm": 0.5,
+        "huggingface": 0.5
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 50.9,
-        "huggingface": 58.4,
-        "composite": 54.6,
-        "split": 7.5
-      },
-      "reasoning": {
-        "benchlm": 72.7,
-        "huggingface": 63.9,
-        "composite": 68.3,
-        "split": 8.8
-      },
-      "knowledge": {
-        "benchlm": 52.3,
+        "benchlm": null,
         "huggingface": null,
-        "composite": 52.3,
+        "composite": null,
         "split": null
       },
+      "reasoning": {
+        "benchlm": 60.4,
+        "huggingface": 71.5,
+        "composite": 65.95,
+        "split": 11.1
+      },
+      "knowledge": {
+        "benchlm": 38.7,
+        "huggingface": 84,
+        "composite": 61.35,
+        "split": 45.3
+      },
       "math": {
-        "benchlm": 63.8,
-        "huggingface": 95.3,
-        "composite": 79.5,
-        "split": 31.5
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
       }
     },
     {
@@ -3851,7 +3851,7 @@
       "reasoning": {
         "benchlm": 76.8,
         "huggingface": 62.5,
-        "composite": 69.7,
+        "composite": 69.65,
         "split": 14.3
       },
       "knowledge": {
@@ -3948,9 +3948,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 50.2,
+        "benchlm": 50.3,
         "huggingface": null,
-        "composite": 50.2,
+        "composite": 50.3,
         "split": null
       },
       "reasoning": {
@@ -3984,21 +3984,21 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 40.2,
-        "huggingface": 68,
-        "composite": 54.1,
+        "benchlm": 40.3,
+        "huggingface": 68.1,
+        "composite": 54.2,
         "split": 27.8
       },
       "reasoning": {
         "benchlm": 51.3,
-        "huggingface": 60.5,
-        "composite": 55.9,
-        "split": 9.2
+        "huggingface": 60.6,
+        "composite": 55.95,
+        "split": 9.3
       },
       "knowledge": {
-        "benchlm": 54,
+        "benchlm": 54.1,
         "huggingface": null,
-        "composite": 54,
+        "composite": 54.1,
         "split": null
       },
       "math": {
@@ -4057,7 +4057,7 @@
       "coding": {
         "benchlm": 55.6,
         "huggingface": 62.5,
-        "composite": 59,
+        "composite": 59.05,
         "split": 6.9
       },
       "reasoning": {
@@ -4268,13 +4268,13 @@
       "coding": {
         "benchlm": 36.3,
         "huggingface": 63.6,
-        "composite": 50,
+        "composite": 49.95,
         "split": 27.3
       },
       "reasoning": {
         "benchlm": 79.3,
         "huggingface": 52.8,
-        "composite": 66,
+        "composite": 66.05,
         "split": 26.5
       },
       "knowledge": {
@@ -4286,7 +4286,7 @@
       "math": {
         "benchlm": 75.4,
         "huggingface": 94.7,
-        "composite": 85.1,
+        "composite": 85.05,
         "split": 19.3
       }
     },
@@ -4361,42 +4361,6 @@
       }
     },
     {
-      "name": "MiniMax M2.5",
-      "names": [
-        "MiniMax M2.5",
-        "MiniMaxAI/MiniMax-M2.5"
-      ],
-      "reliability": {
-        "benchlm": 0.25,
-        "huggingface": 0.75
-      },
-      "sources_present": 2,
-      "coding": {
-        "benchlm": 35.9,
-        "huggingface": 65.6,
-        "composite": 50.8,
-        "split": 29.7
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": 52.3,
-        "composite": 52.3,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": 80.1,
-        "composite": 80.1,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "MiMo-V2.5-Pro",
       "names": [
         "MiMo-V2.5-Pro",
@@ -4422,8 +4386,44 @@
       "knowledge": {
         "benchlm": 49.8,
         "huggingface": 68.5,
-        "composite": 59.1,
+        "composite": 59.15,
         "split": 18.7
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
+      "name": "MiniMax M2.5",
+      "names": [
+        "MiniMax M2.5",
+        "MiniMaxAI/MiniMax-M2.5"
+      ],
+      "reliability": {
+        "benchlm": 0.25,
+        "huggingface": 0.75
+      },
+      "sources_present": 2,
+      "coding": {
+        "benchlm": 35.9,
+        "huggingface": 65.6,
+        "composite": 50.75,
+        "split": 29.7
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": 52.3,
+        "composite": 52.3,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": null,
+        "huggingface": 80.1,
+        "composite": 80.1,
+        "split": null
       },
       "math": {
         "benchlm": null,
@@ -4679,6 +4679,41 @@
       }
     },
     {
+      "name": "poolside/Laguna-XS-2.1",
+      "names": [
+        "poolside/Laguna-XS-2.1"
+      ],
+      "reliability": {
+        "benchlm": 0.0,
+        "huggingface": 0.25
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": 59.3,
+        "composite": 59.3,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
       "name": "GPT-5.2-Codex",
       "names": [
         "GPT-5.2-Codex"
@@ -4714,41 +4749,6 @@
       }
     },
     {
-      "name": "poolside/Laguna-XS-2.1",
-      "names": [
-        "poolside/Laguna-XS-2.1"
-      ],
-      "reliability": {
-        "benchlm": 0.0,
-        "huggingface": 0.25
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": 59.2,
-        "composite": 59.2,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "Claude Opus 4.6",
       "names": [
         "Claude Opus 4.6"
@@ -4759,9 +4759,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 51,
+        "benchlm": 51.1,
         "huggingface": null,
-        "composite": 51,
+        "composite": 51.1,
         "split": null
       },
       "reasoning": {
@@ -5077,7 +5077,7 @@
       "coding": {
         "benchlm": 49.4,
         "huggingface": 61.7,
-        "composite": 55.5,
+        "composite": 55.55,
         "split": 12.3
       },
       "reasoning": {
@@ -5110,9 +5110,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 45,
+        "benchlm": 45.1,
         "huggingface": null,
-        "composite": 45,
+        "composite": 45.1,
         "split": null
       },
       "reasoning": {
@@ -5253,13 +5253,13 @@
       "coding": {
         "benchlm": 35.7,
         "huggingface": 72,
-        "composite": 53.9,
+        "composite": 53.85,
         "split": 36.3
       },
       "reasoning": {
         "benchlm": 49.8,
         "huggingface": 61.1,
-        "composite": 55.5,
+        "composite": 55.45,
         "split": 11.3
       },
       "knowledge": {
@@ -5709,7 +5709,7 @@
       "coding": {
         "benchlm": 36.1,
         "huggingface": 56.2,
-        "composite": 46.2,
+        "composite": 46.15,
         "split": 20.1
       },
       "reasoning": {
@@ -5780,13 +5780,13 @@
       "coding": {
         "benchlm": 34.9,
         "huggingface": 56.6,
-        "composite": 45.8,
+        "composite": 45.75,
         "split": 21.7
       },
       "reasoning": {
         "benchlm": 72.2,
         "huggingface": 22.7,
-        "composite": 47.5,
+        "composite": 47.45,
         "split": 49.5
       },
       "knowledge": {
@@ -5798,7 +5798,7 @@
       "math": {
         "benchlm": 72.9,
         "huggingface": 93.2,
-        "composite": 83.1,
+        "composite": 83.05,
         "split": 20.3
       }
     },
@@ -5873,6 +5873,41 @@
       }
     },
     {
+      "name": "Qwen3.6 Plus",
+      "names": [
+        "Qwen3.6 Plus"
+      ],
+      "reliability": {
+        "benchlm": 1.0,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 43.3,
+        "huggingface": null,
+        "composite": 43.3,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 61.2,
+        "huggingface": null,
+        "composite": 61.2,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 52.1,
+        "huggingface": null,
+        "composite": 52.1,
+        "split": null
+      },
+      "math": {
+        "benchlm": 62,
+        "huggingface": null,
+        "composite": 62,
+        "split": null
+      }
+    },
+    {
       "name": "Gemini 3.1 Pro",
       "names": [
         "Gemini 3.1 Pro"
@@ -5939,41 +5974,6 @@
         "benchlm": null,
         "huggingface": null,
         "composite": null,
-        "split": null
-      }
-    },
-    {
-      "name": "Qwen3.6 Plus",
-      "names": [
-        "Qwen3.6 Plus"
-      ],
-      "reliability": {
-        "benchlm": 1.0,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 43.3,
-        "huggingface": null,
-        "composite": 43.3,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 61.2,
-        "huggingface": null,
-        "composite": 61.2,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 52,
-        "huggingface": null,
-        "composite": 52,
-        "split": null
-      },
-      "math": {
-        "benchlm": 62,
-        "huggingface": null,
-        "composite": 62,
         "split": null
       }
     },
@@ -6313,7 +6313,7 @@
       "reasoning": {
         "benchlm": 54.2,
         "huggingface": 39.9,
-        "composite": 47,
+        "composite": 47.05,
         "split": 14.3
       },
       "knowledge": {
@@ -6518,7 +6518,7 @@
       "coding": {
         "benchlm": 26.9,
         "huggingface": 77.6,
-        "composite": 52.2,
+        "composite": 52.25,
         "split": 50.7
       },
       "reasoning": {
@@ -6939,7 +6939,7 @@
       "coding": {
         "benchlm": 32.4,
         "huggingface": 56.3,
-        "composite": 44.3,
+        "composite": 44.35,
         "split": 23.9
       },
       "reasoning": {
@@ -6949,9 +6949,9 @@
         "split": 24.6
       },
       "knowledge": {
-        "benchlm": 43,
+        "benchlm": 43.1,
         "huggingface": null,
-        "composite": 43,
+        "composite": 43.1,
         "split": null
       },
       "math": {
@@ -7114,8 +7114,8 @@
       "sources_present": 2,
       "coding": {
         "benchlm": null,
-        "huggingface": 59,
-        "composite": 59,
+        "huggingface": 59.1,
+        "composite": 59.1,
         "split": null
       },
       "reasoning": {
@@ -7238,8 +7238,8 @@
       },
       "math": {
         "benchlm": null,
-        "huggingface": 73.8,
-        "composite": 73.8,
+        "huggingface": 73.9,
+        "composite": 73.9,
         "split": null
       }
     },
@@ -7368,7 +7368,7 @@
       "reasoning": {
         "benchlm": 70.9,
         "huggingface": 59.8,
-        "composite": 65.3,
+        "composite": 65.35,
         "split": 11.1
       },
       "knowledge": {
@@ -7408,9 +7408,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 34.1,
+        "benchlm": 34.2,
         "huggingface": null,
-        "composite": 34.1,
+        "composite": 34.2,
         "split": null
       },
       "math": {
@@ -7468,20 +7468,20 @@
       "sources_present": 2,
       "coding": {
         "benchlm": 26.7,
-        "huggingface": 35.2,
+        "huggingface": 35.3,
         "composite": 31,
-        "split": 8.5
+        "split": 8.6
       },
       "reasoning": {
         "benchlm": 57.8,
         "huggingface": 43.1,
-        "composite": 50.5,
+        "composite": 50.45,
         "split": 14.7
       },
       "knowledge": {
         "benchlm": 36.9,
         "huggingface": 80.8,
-        "composite": 58.8,
+        "composite": 58.85,
         "split": 43.9
       },
       "math": {
@@ -7620,10 +7620,10 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 37.1,
+        "benchlm": 37.2,
         "huggingface": 81,
-        "composite": 59,
-        "split": 43.9
+        "composite": 59.1,
+        "split": 43.8
       },
       "math": {
         "benchlm": 39,
@@ -8072,14 +8072,14 @@
       "reasoning": {
         "benchlm": 55.9,
         "huggingface": 43,
-        "composite": 49.5,
+        "composite": 49.45,
         "split": 12.9
       },
       "knowledge": {
-        "benchlm": 20.6,
+        "benchlm": 20.7,
         "huggingface": 81.6,
-        "composite": 51.1,
-        "split": 61
+        "composite": 51.15,
+        "split": 60.9
       },
       "math": {
         "benchlm": null,
@@ -8248,13 +8248,13 @@
       "reasoning": {
         "benchlm": 45.9,
         "huggingface": 36.8,
-        "composite": 41.3,
+        "composite": 41.35,
         "split": 9.1
       },
       "knowledge": {
         "benchlm": 32.7,
         "huggingface": 73.6,
-        "composite": 53.1,
+        "composite": 53.15,
         "split": 40.9
       },
       "math": {
@@ -9194,7 +9194,7 @@
       "reasoning": {
         "benchlm": 47,
         "huggingface": 52.7,
-        "composite": 49.9,
+        "composite": 49.85,
         "split": 5.7
       },
       "knowledge": {
@@ -9935,10 +9935,10 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 25.6,
+        "benchlm": 25.7,
         "huggingface": 70.4,
-        "composite": 48,
-        "split": 44.8
+        "composite": 48.05,
+        "split": 44.7
       },
       "math": {
         "benchlm": null,
@@ -9958,9 +9958,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 21.1,
+        "benchlm": 21.2,
         "huggingface": null,
-        "composite": 21.1,
+        "composite": 21.2,
         "split": null
       },
       "reasoning": {
@@ -11687,8 +11687,8 @@
       },
       "knowledge": {
         "benchlm": null,
-        "huggingface": 23.4,
-        "composite": 23.4,
+        "huggingface": 23.5,
+        "composite": 23.5,
         "split": null
       },
       "math": {
@@ -12422,8 +12422,8 @@
       },
       "knowledge": {
         "benchlm": null,
-        "huggingface": 11.9,
-        "composite": 11.9,
+        "huggingface": 12,
+        "composite": 12,
         "split": null
       },
       "math": {
@@ -12492,8 +12492,8 @@
       },
       "knowledge": {
         "benchlm": null,
-        "huggingface": 10.8,
-        "composite": 10.8,
+        "huggingface": 10.9,
+        "composite": 10.9,
         "split": null
       },
       "math": {
