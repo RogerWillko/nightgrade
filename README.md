@@ -17,16 +17,11 @@ Each run replaces that file and commits. The page builds the table from the file
 
 `reference.json` is the second file on `main`. The night stays in `scores.json`.
 
-Two sources are in the pull:
+Two public lists are copied into that file. [BenchLM](https://benchlm.ai) is one, used under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Hugging Face is the other: SWE-bench Verified, SWE-bench Pro, HLE, GPQA, MMLU-Pro, and AIME 2026. When a list has two tests under one heading, those two scores are averaged first.
 
-- [BenchLM](https://benchlm.ai/api/data/leaderboard), under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Attribute BenchLM.ai.
-- Six Hugging Face leaderboards: SWE-bench Verified, SWE-bench Pro, HLE, GPQA, MMLU-Pro, and AIME 2026.
+The large number in a row is the average of the two lists. BenchLM 85 and Hugging Face 70 make an average of 77.5. The small line, "sources split by 15", is only the distance between those two scores. A wide split means the lists disagree, so the average is a weaker guide.
 
-Artificial Analysis has a column and no numbers. The free endpoint answers 401 without a key, and no key is saved. With a key, that free response is headline indices.
-
-Each benchmark is stretched from 0 to 1 across the models in that pull. 0 is the low end of the pull. 1 is the high end. A fraction sitting on a percent board is turned into points first, and repeated rows for one name are averaged. Benches in one category are averaged, then the sources are averaged with equal weight. Reliability is how many of the four categories that source had for the name.
-
-The composite is a rank inside other people's lists. A wide gap means those lists disagree. The pull on 27 September 2026 lined up 38 names across the two sources, out of 354 names in the file. The raw file is:
+A name that only one list scored has no split. The name box on the page searches the whole file.
 
 https://raw.githubusercontent.com/RogerWillko/nightgrade/main/reference.json
 
