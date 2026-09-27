@@ -141,6 +141,13 @@
           "spread": true
         }
       ]
+    },
+    "openrouter": {
+      "ok": true,
+      "url": "https://openrouter.ai/api/v1/models",
+      "role": "price",
+      "unit": "USD per million tokens",
+      "models": 145
     }
   },
   "aligned": 38,
@@ -458,6 +465,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-5.5",
+        "input": 4,
+        "output": 20,
+        "free_route": false
       }
     },
     {
@@ -808,6 +821,12 @@
         "huggingface": null,
         "composite": 85,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-6-astra",
+        "input": 10,
+        "output": 50,
+        "free_route": false
       }
     },
     {
@@ -913,6 +932,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-235b-a22b-2507",
+        "input": 0.0875,
+        "output": 0.35,
+        "free_route": false
       }
     },
     {
@@ -948,6 +973,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-fable-5.1",
+        "input": 10,
+        "output": 50,
+        "free_route": false
       }
     },
     {
@@ -1053,6 +1084,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-r1-0528",
+        "input": 0.5,
+        "output": 2.15,
+        "free_route": false
       }
     },
     {
@@ -1123,6 +1160,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-chat-v3-0324",
+        "input": 0.25,
+        "output": 1,
+        "free_route": false
       }
     },
     {
@@ -1228,6 +1271,12 @@
         "huggingface": 93.3,
         "composite": 93.3,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.5-397b-a17b",
+        "input": 0.55,
+        "output": 3.5,
+        "free_route": false
       }
     },
     {
@@ -1263,6 +1312,12 @@
         "huggingface": 87.5,
         "composite": 87.5,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-30b-a3b-thinking-2507",
+        "input": 0.2,
+        "output": 2.4,
+        "free_route": false
       }
     },
     {
@@ -1298,6 +1353,12 @@
         "huggingface": 95.8,
         "composite": 95.8,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5",
+        "input": 0.6,
+        "output": 1.92,
+        "free_route": false
       }
     },
     {
@@ -1333,6 +1394,12 @@
         "huggingface": null,
         "composite": 96.8,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.6-sol",
+        "input": 2,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -1368,6 +1435,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-fable-5",
+        "input": 10,
+        "output": 50,
+        "free_route": false
       }
     },
     {
@@ -1613,6 +1686,12 @@
         "huggingface": 96.7,
         "composite": 96.7,
         "split": null
+      },
+      "price": {
+        "id": "stepfun/step-3.5-flash",
+        "input": 0.1,
+        "output": 0.3,
+        "free_route": false
       }
     },
     {
@@ -1648,6 +1727,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-5",
+        "input": 5,
+        "output": 25,
+        "free_route": false
       }
     },
     {
@@ -1753,6 +1838,12 @@
         "huggingface": null,
         "composite": 76.8,
         "split": null
+      },
+      "price": {
+        "id": "prism-ml/ternary-bonsai-2-27b",
+        "input": 0.075,
+        "output": 0.5,
+        "free_route": false
       }
     },
     {
@@ -1823,6 +1914,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v4-flash",
+        "input": 0.0469,
+        "output": 0.0938,
+        "free_route": false
       }
     },
     {
@@ -1893,6 +1990,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-6-sol",
+        "input": 2,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -1963,6 +2066,12 @@
         "huggingface": null,
         "composite": 96.8,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.6-terra",
+        "input": 2,
+        "output": 12,
+        "free_route": false
       }
     },
     {
@@ -2033,6 +2142,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v4-pro",
+        "input": 0.348,
+        "output": 0.696,
+        "free_route": false
       }
     },
     {
@@ -2068,6 +2183,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "input": 0,
+        "output": 0,
+        "free_route": true
       }
     },
     {
@@ -2138,6 +2259,12 @@
         "huggingface": null,
         "composite": 70.1,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.5-pro",
+        "input": 30,
+        "output": 180,
+        "free_route": false
       }
     },
     {
@@ -2313,6 +2440,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen-2.5-72b-instruct",
+        "input": 0.36,
+        "output": 0.4,
+        "free_route": false
       }
     },
     {
@@ -2348,6 +2481,12 @@
         "huggingface": null,
         "composite": 68.8,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.4-pro",
+        "input": 30,
+        "output": 180,
+        "free_route": false
       }
     },
     {
@@ -2418,6 +2557,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "input": 0.035,
+        "output": 0.29,
+        "free_route": false
       }
     },
     {
@@ -2523,6 +2668,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.7-flash",
+        "input": 0.75,
+        "output": 3.75,
+        "free_route": false
       }
     },
     {
@@ -2558,6 +2709,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.8-flash",
+        "input": 0.75,
+        "output": 3.75,
+        "free_route": false
       }
     },
     {
@@ -2628,6 +2785,12 @@
         "huggingface": null,
         "composite": 94.2,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.6-luna",
+        "input": 0.2,
+        "output": 1.2,
+        "free_route": false
       }
     },
     {
@@ -2733,6 +2896,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.8-2.4t-a95b",
+        "input": 2,
+        "output": 6,
+        "free_route": false
       }
     },
     {
@@ -2768,6 +2937,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-sonnet-5",
+        "input": 2,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -2804,6 +2979,12 @@
         "huggingface": null,
         "composite": 80.7,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5.2",
+        "input": 0.6496,
+        "output": 2.0416,
+        "free_route": false
       }
     },
     {
@@ -2839,6 +3020,12 @@
         "huggingface": null,
         "composite": 69.4,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.5",
+        "input": 5,
+        "output": 30,
+        "free_route": false
       }
     },
     {
@@ -2874,6 +3061,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "tencent/hunyuan-a13b-instruct",
+        "input": 0.14,
+        "output": 0.57,
+        "free_route": false
       }
     },
     {
@@ -2910,6 +3103,12 @@
         "huggingface": 96.4,
         "composite": 83.7,
         "split": 25.4
+      },
+      "price": {
+        "id": "moonshotai/kimi-k2.6",
+        "input": 0.95,
+        "output": 4,
+        "free_route": false
       }
     },
     {
@@ -2946,6 +3145,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "moonshotai/kimi-k3",
+        "input": 3,
+        "output": 15,
+        "free_route": false
       }
     },
     {
@@ -3017,6 +3222,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta/muse-spark-1.1",
+        "input": 1.25,
+        "output": 4.25,
+        "free_route": false
       }
     },
     {
@@ -3053,6 +3264,12 @@
         "huggingface": 94.1,
         "composite": 83.1,
         "split": 22
+      },
+      "price": {
+        "id": "qwen/qwen3.6-27b",
+        "input": 0.32,
+        "output": 3.2,
+        "free_route": false
       }
     },
     {
@@ -3088,6 +3305,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.3-codex",
+        "input": 1.75,
+        "output": 14,
+        "free_route": false
       }
     },
     {
@@ -3123,6 +3346,12 @@
         "huggingface": null,
         "composite": 81.9,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.7-max",
+        "input": 1.475,
+        "output": 4.425,
+        "free_route": false
       }
     },
     {
@@ -3159,6 +3388,12 @@
         "huggingface": 90.8,
         "composite": 90.8,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.5-27b",
+        "input": 0.195,
+        "output": 1.56,
+        "free_route": false
       }
     },
     {
@@ -3230,6 +3465,12 @@
         "huggingface": 97.1,
         "composite": 87.8,
         "split": 18.6
+      },
+      "price": {
+        "id": "thinkingmachines/inkling",
+        "input": 1,
+        "output": 4.05,
+        "free_route": true
       }
     },
     {
@@ -3300,6 +3541,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta/muse-spark-1.2",
+        "input": 1.25,
+        "output": 4.25,
+        "free_route": false
       }
     },
     {
@@ -3370,6 +3617,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "moonshotai/kimi-k2-thinking",
+        "input": 0.6,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -3510,6 +3763,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "minimax/minimax-m2.1",
+        "input": 0.3,
+        "output": 1.2,
+        "free_route": false
       }
     },
     {
@@ -3545,6 +3804,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen2.5-vl-72b-instruct",
+        "input": 0.8,
+        "output": 1,
+        "free_route": false
       }
     },
     {
@@ -3615,6 +3880,12 @@
         "huggingface": null,
         "composite": 65.2,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-4.8",
+        "input": 5,
+        "output": 25,
+        "free_route": false
       }
     },
     {
@@ -3651,6 +3922,12 @@
         "huggingface": 92.7,
         "composite": 81.7,
         "split": 22
+      },
+      "price": {
+        "id": "qwen/qwen3.6-35b-a3b",
+        "input": 0.15,
+        "output": 1,
+        "free_route": false
       }
     },
     {
@@ -3722,6 +3999,12 @@
         "huggingface": 95.8,
         "composite": 78.95,
         "split": 33.7
+      },
+      "price": {
+        "id": "moonshotai/kimi-k2.5",
+        "input": 0.45,
+        "output": 2.25,
+        "free_route": false
       }
     },
     {
@@ -3758,6 +4041,12 @@
         "huggingface": 95.3,
         "composite": 79.55,
         "split": 31.5
+      },
+      "price": {
+        "id": "z-ai/glm-5.1",
+        "input": 0.9646,
+        "output": 3.0316,
+        "free_route": false
       }
     },
     {
@@ -3829,6 +4118,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-r1",
+        "input": 0.7,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -3865,6 +4160,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5.3",
+        "input": 1.4,
+        "output": 4.4,
+        "free_route": false
       }
     },
     {
@@ -3935,6 +4236,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "x-ai/grok-4.6",
+        "input": 2,
+        "output": 6,
+        "free_route": false
       }
     },
     {
@@ -3970,6 +4277,12 @@
         "huggingface": null,
         "composite": 80.2,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v4-pro-0813",
+        "input": 0.293,
+        "output": 3.5,
+        "free_route": false
       }
     },
     {
@@ -4006,6 +4319,12 @@
         "huggingface": 95.5,
         "composite": 86,
         "split": 19
+      },
+      "price": {
+        "id": "thinkingmachines/inkling-small",
+        "input": 0.45,
+        "output": 1.2,
+        "free_route": true
       }
     },
     {
@@ -4041,6 +4360,12 @@
         "huggingface": null,
         "composite": 78.2,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.7-plus",
+        "input": 0.32,
+        "output": 1.28,
+        "free_route": false
       }
     },
     {
@@ -4147,6 +4472,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-30b-a3b",
+        "input": 0.12,
+        "output": 0.5,
+        "free_route": false
       }
     },
     {
@@ -4252,6 +4583,12 @@
         "huggingface": null,
         "composite": 60.6,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-4.7",
+        "input": 5,
+        "output": 25,
+        "free_route": false
       }
     },
     {
@@ -4288,6 +4625,12 @@
         "huggingface": 94.7,
         "composite": 85.05,
         "split": 19.3
+      },
+      "price": {
+        "id": "meta/muse-glimmer-30b",
+        "input": 0.3,
+        "output": 1.2,
+        "free_route": false
       }
     },
     {
@@ -4394,6 +4737,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "xiaomi/mimo-v2.5-pro",
+        "input": 0.435,
+        "output": 0.87,
+        "free_route": false
       }
     },
     {
@@ -4430,6 +4779,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "minimax/minimax-m2.5",
+        "input": 0.27,
+        "output": 1.08,
+        "free_route": false
       }
     },
     {
@@ -4466,6 +4821,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "minimax/minimax-m3",
+        "input": 0.3,
+        "output": 1.2,
+        "free_route": false
       }
     },
     {
@@ -4501,6 +4862,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.6-flash",
+        "input": 0.75,
+        "output": 3.75,
+        "free_route": false
       }
     },
     {
@@ -4536,6 +4903,12 @@
         "huggingface": null,
         "composite": 64.4,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.4",
+        "input": 2.5,
+        "output": 15,
+        "free_route": false
       }
     },
     {
@@ -4676,6 +5049,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "poolside/laguna-s-2.1",
+        "input": 0.09,
+        "output": 0.18,
+        "free_route": true
       }
     },
     {
@@ -4711,6 +5090,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "poolside/laguna-xs-2.1",
+        "input": 0.06,
+        "output": 0.12,
+        "free_route": true
       }
     },
     {
@@ -4746,6 +5131,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.2-codex",
+        "input": 1.75,
+        "output": 14,
+        "free_route": false
       }
     },
     {
@@ -4781,6 +5172,12 @@
         "huggingface": null,
         "composite": 58.5,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-4.6",
+        "input": 5,
+        "output": 25,
+        "free_route": false
       }
     },
     {
@@ -4886,6 +5283,12 @@
         "huggingface": null,
         "composite": 55.1,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.5-flash",
+        "input": 1.5,
+        "output": 9,
+        "free_route": false
       }
     },
     {
@@ -4991,6 +5394,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-6-luna",
+        "input": 0.1,
+        "output": 0.5,
+        "free_route": false
       }
     },
     {
@@ -5026,6 +5435,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5",
+        "input": 0.6,
+        "output": 1.92,
+        "free_route": false
       }
     },
     {
@@ -5061,6 +5476,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "x-ai/grok-4.5",
+        "input": 2,
+        "output": 6,
+        "free_route": false
       }
     },
     {
@@ -5097,6 +5518,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.8-27b",
+        "input": 0.42,
+        "output": 3,
+        "free_route": true
       }
     },
     {
@@ -5132,6 +5559,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "moonshotai/kimi-k2.7-code",
+        "input": 0.6562,
+        "output": 3.3,
+        "free_route": false
       }
     },
     {
@@ -5273,6 +5706,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.5-122b-a10b",
+        "input": 0.26,
+        "output": 2.08,
+        "free_route": false
       }
     },
     {
@@ -5448,6 +5887,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-coder-next",
+        "input": 0.12,
+        "output": 0.8,
+        "free_route": false
       }
     },
     {
@@ -5588,6 +6033,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "xiaomi/mimo-v2.5",
+        "input": 0.14,
+        "output": 0.28,
+        "free_route": false
       }
     },
     {
@@ -5623,6 +6074,12 @@
         "huggingface": null,
         "composite": 57.9,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-4.5",
+        "input": 5,
+        "output": 25,
+        "free_route": false
       }
     },
     {
@@ -5729,6 +6186,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "minimax/minimax-m2.7",
+        "input": 0.21,
+        "output": 0.84,
+        "free_route": false
       }
     },
     {
@@ -5800,6 +6263,12 @@
         "huggingface": 93.2,
         "composite": 83.05,
         "split": 20.3
+      },
+      "price": {
+        "id": "inclusionai/ling-3.0-flash",
+        "input": 0.021,
+        "output": 0.063,
+        "free_route": false
       }
     },
     {
@@ -5870,6 +6339,12 @@
         "huggingface": null,
         "composite": 48.8,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-sonnet-4.6",
+        "input": 3,
+        "output": 15,
+        "free_route": false
       }
     },
     {
@@ -5905,6 +6380,12 @@
         "huggingface": null,
         "composite": 62,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.6-plus",
+        "input": 0.325,
+        "output": 1.95,
+        "free_route": false
       }
     },
     {
@@ -5940,6 +6421,12 @@
         "huggingface": null,
         "composite": 54.2,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.1-pro-preview",
+        "input": 2,
+        "output": 12,
+        "free_route": false
       }
     },
     {
@@ -5975,6 +6462,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "minimax/minimax-m2",
+        "input": 0.3,
+        "output": 1.2,
+        "free_route": false
       }
     },
     {
@@ -6011,6 +6504,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5.3-flash",
+        "input": 0.045,
+        "output": 0.14,
+        "free_route": false
       }
     },
     {
@@ -6081,6 +6580,12 @@
         "huggingface": null,
         "composite": 49,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.1",
+        "input": 1.25,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -6116,6 +6621,12 @@
         "huggingface": null,
         "composite": 57.4,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.2",
+        "input": 1.75,
+        "output": 14,
+        "free_route": false
       }
     },
     {
@@ -6256,6 +6767,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-3.1-70b-instruct",
+        "input": 0.4,
+        "output": 0.4,
+        "free_route": false
       }
     },
     {
@@ -6327,6 +6844,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-4.5-air",
+        "input": 0.13,
+        "output": 0.85,
+        "free_route": false
       }
     },
     {
@@ -6362,6 +6885,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-4.7-flash",
+        "input": 0.0605,
+        "output": 0.4,
+        "free_route": false
       }
     },
     {
@@ -6678,6 +7207,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.1-codex",
+        "input": 1.25,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -6713,6 +7248,12 @@
         "huggingface": null,
         "composite": 50,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3-flash-preview",
+        "input": 0.5,
+        "output": 3,
+        "free_route": false
       }
     },
     {
@@ -6748,6 +7289,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.5-flash-lite",
+        "input": 0.3,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -6853,6 +7400,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "x-ai/grok-4.3",
+        "input": 1.25,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -6923,6 +7476,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5v-turbo",
+        "input": 1.2,
+        "output": 4,
+        "free_route": false
       }
     },
     {
@@ -6959,6 +7518,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "stepfun/step-3.7-flash",
+        "input": 0.2,
+        "output": 1.15,
+        "free_route": false
       }
     },
     {
@@ -6994,6 +7559,12 @@
         "huggingface": null,
         "composite": 56.5,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5",
+        "input": 0.6,
+        "output": 1.92,
+        "free_route": false
       }
     },
     {
@@ -7064,6 +7635,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemma-4-31b-it",
+        "input": 0.09,
+        "output": 0.34,
+        "free_route": true
       }
     },
     {
@@ -7276,6 +7853,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-max",
+        "input": 0.78,
+        "output": 3.9,
+        "free_route": false
       }
     },
     {
@@ -7382,6 +7965,12 @@
         "huggingface": null,
         "composite": 25.8,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-4.7",
+        "input": 0.6,
+        "output": 2.2,
+        "free_route": false
       }
     },
     {
@@ -7489,6 +8078,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-oss-120b",
+        "input": 0.15,
+        "output": 0.6,
+        "free_route": false
       }
     },
     {
@@ -7524,6 +8119,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-4.5",
+        "input": 0.6,
+        "output": 2.2,
+        "free_route": false
       }
     },
     {
@@ -7630,6 +8231,12 @@
         "huggingface": null,
         "composite": 39,
         "split": null
+      },
+      "price": {
+        "id": "moonshotai/kimi-k2",
+        "input": 0.57,
+        "output": 2.3,
+        "free_route": false
       }
     },
     {
@@ -7700,6 +8307,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemma-4-26b-a4b-it",
+        "input": 0.0675,
+        "output": 0.225,
+        "free_route": true
       }
     },
     {
@@ -7910,6 +8523,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-chat-v3.1",
+        "input": 0.25,
+        "output": 0.95,
+        "free_route": false
       }
     },
     {
@@ -7980,6 +8599,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen-2.5-7b-instruct",
+        "input": 0.1,
+        "output": 0.2,
+        "free_route": false
       }
     },
     {
@@ -8015,6 +8640,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-235b-a22b",
+        "input": 0.455,
+        "output": 1.82,
+        "free_route": false
       }
     },
     {
@@ -8121,6 +8752,12 @@
         "huggingface": null,
         "composite": 28,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4.1",
+        "input": 2,
+        "output": 8,
+        "free_route": false
       }
     },
     {
@@ -8156,6 +8793,12 @@
         "huggingface": null,
         "composite": 41.3,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.6-max-preview",
+        "input": 1.027,
+        "output": 6.162,
+        "free_route": false
       }
     },
     {
@@ -8262,6 +8905,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-oss-20b",
+        "input": 0.018,
+        "output": 0.09,
+        "free_route": false
       }
     },
     {
@@ -8332,6 +8981,12 @@
         "huggingface": null,
         "composite": 35.1,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-2.5-pro",
+        "input": 1.25,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -8437,6 +9092,12 @@
         "huggingface": null,
         "composite": 44.3,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.4-mini",
+        "input": 0.75,
+        "output": 4.5,
+        "free_route": false
       }
     },
     {
@@ -8542,6 +9203,12 @@
         "huggingface": null,
         "composite": 40,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v3.2",
+        "input": 0.269,
+        "output": 0.4,
+        "free_route": false
       }
     },
     {
@@ -8822,6 +9489,12 @@
         "huggingface": null,
         "composite": 28.6,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-2.5-flash",
+        "input": 0.3,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -8927,6 +9600,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b",
+        "input": 0.6,
+        "output": 2.4,
+        "free_route": false
       }
     },
     {
@@ -9102,6 +9781,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3-coder",
+        "input": 0.3,
+        "output": 1,
+        "free_route": false
       }
     },
     {
@@ -9137,6 +9822,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "x-ai/grok-4.20",
+        "input": 1.25,
+        "output": 2.5,
+        "free_route": false
       }
     },
     {
@@ -9172,6 +9863,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "mistralai/mistral-small-2603",
+        "input": 0.15,
+        "output": 0.6,
+        "free_route": false
       }
     },
     {
@@ -9278,6 +9975,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "cohere/command-a",
+        "input": 2.5,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -9453,6 +10156,12 @@
         "huggingface": null,
         "composite": 25.1,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4o",
+        "input": 2.5,
+        "output": 10,
+        "free_route": false
       }
     },
     {
@@ -9488,6 +10197,12 @@
         "huggingface": null,
         "composite": 43.8,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.4-nano",
+        "input": 0.2,
+        "output": 1.25,
+        "free_route": false
       }
     },
     {
@@ -9523,6 +10238,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemini-3.1-flash-lite",
+        "input": 0.25,
+        "output": 1.5,
+        "free_route": false
       }
     },
     {
@@ -9663,6 +10384,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "mistralai/mistral-medium-3",
+        "input": 0.4,
+        "output": 2,
+        "free_route": false
       }
     },
     {
@@ -9698,6 +10425,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-3.1-8b-instruct",
+        "input": 0.05,
+        "output": 0.08,
+        "free_route": false
       }
     },
     {
@@ -9733,6 +10466,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.5-35b-a3b",
+        "input": 0.3125,
+        "output": 1.25,
+        "free_route": false
       }
     },
     {
@@ -9769,6 +10508,12 @@
         "huggingface": null,
         "composite": 26,
         "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-chat",
+        "input": 0.2574,
+        "output": 1.0287,
+        "free_route": false
       }
     },
     {
@@ -9874,6 +10619,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/o3-mini",
+        "input": 1.1,
+        "output": 4.4,
+        "free_route": false
       }
     },
     {
@@ -9945,6 +10696,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "microsoft/phi-4",
+        "input": 0.07,
+        "output": 0.14,
+        "free_route": false
       }
     },
     {
@@ -9980,6 +10737,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "arcee-ai/trinity-large-thinking",
+        "input": 0.25,
+        "output": 0.8,
+        "free_route": false
       }
     },
     {
@@ -10225,6 +10988,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "ibm-granite/granite-4.2-8b",
+        "input": 0.06,
+        "output": 0.25,
+        "free_route": false
       }
     },
     {
@@ -10365,6 +11134,12 @@
         "huggingface": null,
         "composite": 28.4,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4.1-mini",
+        "input": 0.4,
+        "output": 1.6,
+        "free_route": false
       }
     },
     {
@@ -10400,6 +11175,12 @@
         "huggingface": null,
         "composite": 25.1,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-4-maverick",
+        "input": 0.1875,
+        "output": 0.6525,
+        "free_route": false
       }
     },
     {
@@ -10435,6 +11216,12 @@
         "huggingface": null,
         "composite": 28.4,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen3.5-flash-02-23",
+        "input": 0.065,
+        "output": 0.26,
+        "free_route": false
       }
     },
     {
@@ -10646,6 +11433,12 @@
         "huggingface": null,
         "composite": 27.3,
         "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-4.6",
+        "input": 0.43,
+        "output": 1.75,
+        "free_route": false
       }
     },
     {
@@ -10751,6 +11544,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5-mini",
+        "input": 0.25,
+        "output": 2,
+        "free_route": false
       }
     },
     {
@@ -10891,6 +11690,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "qwen/qwen-2.5-coder-32b-instruct",
+        "input": 0.66,
+        "output": 1,
+        "free_route": false
       }
     },
     {
@@ -10961,6 +11766,12 @@
         "huggingface": null,
         "composite": 28.8,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-haiku-4.5",
+        "input": 1,
+        "output": 5,
+        "free_route": false
       }
     },
     {
@@ -11031,6 +11842,12 @@
         "huggingface": null,
         "composite": 34.6,
         "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-sonnet-4.5",
+        "input": 3,
+        "output": 15,
+        "free_route": false
       }
     },
     {
@@ -11206,6 +12023,12 @@
         "huggingface": null,
         "composite": 25.1,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-4-scout",
+        "input": 0.1,
+        "output": 0.3,
+        "free_route": false
       }
     },
     {
@@ -11486,6 +12309,12 @@
         "huggingface": null,
         "composite": 25.4,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4.1-nano",
+        "input": 0.1,
+        "output": 0.4,
+        "free_route": false
       }
     },
     {
@@ -11521,6 +12350,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "input": 0,
+        "output": 0,
+        "free_route": true
       }
     },
     {
@@ -11836,6 +12671,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-3.2-3b-instruct",
+        "input": 0.05,
+        "output": 0.33,
+        "free_route": false
       }
     },
     {
@@ -11906,6 +12747,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "google/gemma-3-27b-it",
+        "input": 0.08,
+        "output": 0.45,
+        "free_route": false
       }
     },
     {
@@ -12046,6 +12893,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "inception/mercury-2",
+        "input": 0.25,
+        "output": 0.75,
+        "free_route": false
       }
     },
     {
@@ -12081,6 +12934,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-3.2-1b-instruct",
+        "input": 0.027,
+        "output": 0.201,
+        "free_route": false
       }
     },
     {
@@ -12221,6 +13080,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4o-mini",
+        "input": 0.15,
+        "output": 0.6,
+        "free_route": false
       }
     },
     {
@@ -12361,6 +13226,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "openai/gpt-4",
+        "input": 30,
+        "output": 60,
+        "free_route": false
       }
     },
     {
@@ -12431,6 +13302,12 @@
         "huggingface": null,
         "composite": null,
         "split": null
+      },
+      "price": {
+        "id": "meta-llama/llama-3.2-1b-instruct",
+        "input": 0.027,
+        "output": 0.201,
+        "free_route": false
       }
     },
     {
