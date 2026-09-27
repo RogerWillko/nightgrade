@@ -19,7 +19,7 @@ Each run replaces that file and commits. The page builds the table from the file
 
 Two public lists are copied into that file. [BenchLM](https://benchlm.ai) is one, used under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Hugging Face is the other: SWE-bench Verified, SWE-bench Pro, HLE, GPQA, MMLU-Pro, and AIME 2026. When a list has two tests under one heading, those two scores are averaged first.
 
-The large number in a row is the average of the two lists. BenchLM 85 and Hugging Face 70 make an average of 77.5. The small line, "sources split by 15", is only the distance between those two scores. A wide split means the lists disagree, so the average is a weaker guide.
+The large number in a row is the average of the two lists. BenchLM 85 and Hugging Face 70 make an average of 77.5. When that average does not land on one decimal, the row keeps the extra place, so 26.9 and 77.6 show as 52.25. The small line, "sources split by 15", is only the distance between those two scores. A wide split means the lists disagree, so the average is a weaker guide. On a phone the sheet slides sideways and scrolls down. The model name stays on the left, and the column titles stay on top.
 
 A name that only one list scored has no split. The name box on the page searches the whole file.
 
