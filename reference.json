@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-27T19:14:32-06:00",
+  "fetched": "2026-09-28T06:10:09-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -75,19 +75,19 @@
         {
           "id": "Idavidrein/gpqa",
           "category": "reasoning",
-          "rows": 110,
+          "rows": 111,
           "ok": true
         },
         {
           "id": "TIGER-Lab/MMLU-Pro",
           "category": "knowledge",
-          "rows": 140,
+          "rows": 141,
           "ok": true
         },
         {
           "id": "MathArena/aime_2026",
           "category": "math",
-          "rows": 24,
+          "rows": 25,
           "ok": true
         }
       ],
@@ -112,24 +112,24 @@
           "id": "TIGER-Lab/MMLU-Pro",
           "category": "knowledge",
           "low": 10.85,
-          "high": 88.0,
-          "n": 140,
+          "high": 88.12,
+          "n": 141,
           "spread": true
         },
         {
           "id": "MathArena/aime_2026",
           "category": "math",
           "low": 73.85,
-          "high": 97.1,
-          "n": 23,
+          "high": 100.0,
+          "n": 24,
           "spread": true
         },
         {
           "id": "Idavidrein/gpqa",
           "category": "reasoning",
           "low": 18.6869,
-          "high": 93.5,
-          "n": 92,
+          "high": 94.44,
+          "n": 93,
           "spread": true
         },
         {
@@ -152,6 +152,41 @@
   },
   "aligned": 38,
   "models": [
+    {
+      "name": "FINAL-Bench/Darwin-180B-RSI",
+      "names": [
+        "FINAL-Bench/Darwin-180B-RSI"
+      ],
+      "reliability": {
+        "benchlm": 0.0,
+        "huggingface": 0.75
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": 94.4,
+        "composite": 94.4,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": null,
+        "huggingface": 88.1,
+        "composite": 88.1,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": 100,
+        "composite": 100,
+        "split": null
+      }
+    },
     {
       "name": "FINAL-Bench/Darwin-397B-ZTC",
       "names": [
@@ -2145,8 +2180,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro",
-        "input": 0.9483,
-        "output": 1.8966,
+        "input": 0.9553,
+        "output": 1.9105,
         "free_route": false
       }
     },
@@ -2560,8 +2595,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4.1-flash",
-        "input": 0.0298,
-        "output": 0.6,
+        "input": 0.035,
+        "output": 0.29,
         "free_route": false
       }
     },
@@ -3106,8 +3141,8 @@
       },
       "price": {
         "id": "moonshotai/kimi-k2.6",
-        "input": 0.95,
-        "output": 4,
+        "input": 0.65,
+        "output": 3.41,
         "free_route": false
       }
     },
@@ -4280,8 +4315,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro-0813",
-        "input": 0.2523,
-        "output": 3.5,
+        "input": 0.3995,
+        "output": 4.2,
         "free_route": false
       }
     },
@@ -4475,8 +4510,8 @@
       },
       "price": {
         "id": "qwen/qwen3-30b-a3b",
-        "input": 0.13,
-        "output": 0.52,
+        "input": 0.12,
+        "output": 0.5,
         "free_route": false
       }
     },
@@ -6465,8 +6500,8 @@
       },
       "price": {
         "id": "minimax/minimax-m2",
-        "input": 0.255,
-        "output": 1.02,
+        "input": 0.3,
+        "output": 1.2,
         "free_route": false
       }
     },
@@ -8310,8 +8345,8 @@
       },
       "price": {
         "id": "google/gemma-4-26b-a4b-it",
-        "input": 0.0675,
-        "output": 0.225,
+        "input": 0.09,
+        "output": 0.3,
         "free_route": true
       }
     },
