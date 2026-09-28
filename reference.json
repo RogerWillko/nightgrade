@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-28T15:15:34-06:00",
+  "fetched": "2026-09-28T15:28:46-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -148,6 +148,10 @@
       "role": "price",
       "unit": "USD per million tokens",
       "models": 148
+    },
+    "makers": {
+      "ok": true,
+      "role": "price"
     }
   },
   "aligned": 39,
@@ -2009,8 +2013,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-flash",
-        "input": 0.0515,
-        "output": 0.103,
+        "input": 0.05,
+        "output": 0.1,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -13697,6 +13701,56 @@
   },
   "releases": [
     {
+      "name": "MiniMax-M3.1-Flash-Preview",
+      "id": "MiniMax-M3.1-Flash-Preview",
+      "unit": "per million output tokens",
+      "source": "https://platform.minimax.io/docs/guides/models-intro",
+      "source_key": "minimax",
+      "origin": "maker",
+      "note": "No public per-token price. The docs say Token Plan and MiniMax Code only.",
+      "card": "Maker's docs: 1 million token context.",
+      "listed": "2026-09-28"
+    },
+    {
+      "name": "Eleven v4 Turbo",
+      "id": "eleven_v4_turbo",
+      "output": 0.011,
+      "list": 0.04,
+      "unit": "per thousand characters",
+      "source": "https://elevenlabs.io/pricing/api",
+      "source_key": "eleven",
+      "origin": "maker",
+      "note": "Text to speech.",
+      "until": "2026-10-12",
+      "listed": "2026-09-28"
+    },
+    {
+      "name": "Eleven v4",
+      "id": "eleven_v4",
+      "output": 0.022,
+      "list": 0.08,
+      "unit": "per thousand characters",
+      "source": "https://elevenlabs.io/pricing/api",
+      "source_key": "eleven",
+      "origin": "maker",
+      "note": "Text to speech.",
+      "until": "2026-10-12",
+      "listed": "2026-09-28"
+    },
+    {
+      "name": "Naive-N0.5-Flash",
+      "id": "NaiveAI/Naive-N0.5-Flash",
+      "input": 0.1,
+      "output": 0.4,
+      "unit": "per million output tokens",
+      "source": "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash",
+      "source_key": "naive",
+      "origin": "maker",
+      "note": "Announced API price. The model card says API access will also be provided.",
+      "card": "Maker's card: 309B MoE, 15.5B active, 1 million token context.",
+      "listed": "2026-09-27"
+    },
+    {
       "name": "Perceptron Mk1.5",
       "id": "perceptron/perceptron-mk1.5",
       "listed": "2026-09-25",
@@ -13708,7 +13762,8 @@
       "id": "fireworks/ember-1",
       "listed": "2026-09-24",
       "input": 3,
-      "output": 15
+      "output": 15,
+      "note": "Fireworks says this is a Kimi K3 post-train that uses about 40% fewer tokens."
     },
     {
       "name": "Solar Mini 4",
