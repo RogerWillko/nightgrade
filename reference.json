@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-28T15:28:46-06:00",
+  "fetched": "2026-09-29T06:10:09-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -14,22 +14,22 @@
       "attribution": "https://benchlm.ai",
       "license": "CC BY-NC 4.0",
       "updated": "2026-09-28",
-      "models": 177,
+      "models": 181,
       "metrics": [
         {
           "id": "coding",
           "category": "coding",
-          "low": 11.26,
-          "high": 83.02,
-          "n": 130,
+          "low": 12.17,
+          "high": 83.14,
+          "n": 134,
           "spread": true
         },
         {
           "id": "knowledge",
           "category": "knowledge",
-          "low": 15.86,
-          "high": 89.11,
-          "n": 159,
+          "low": 20.93,
+          "high": 89.13,
+          "n": 164,
           "spread": true
         },
         {
@@ -45,7 +45,7 @@
           "category": "reasoning",
           "low": 19.2,
           "high": 89.6,
-          "n": 146,
+          "n": 152,
           "spread": true
         }
       ]
@@ -147,7 +147,7 @@
       "url": "https://openrouter.ai/api/v1/models",
       "role": "price",
       "unit": "USD per million tokens",
-      "models": 148
+      "models": 152
     },
     "makers": {
       "ok": true,
@@ -727,9 +727,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 83,
+        "benchlm": 83.1,
         "huggingface": null,
-        "composite": 83,
+        "composite": 83.1,
         "split": null
       },
       "reasoning": {
@@ -1063,9 +1063,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 79.7,
+        "benchlm": 79.8,
         "huggingface": null,
-        "composite": 79.7,
+        "composite": 79.8,
         "split": null
       },
       "reasoning": {
@@ -1420,9 +1420,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 79.6,
+        "benchlm": 79.8,
         "huggingface": null,
-        "composite": 79.6,
+        "composite": 79.8,
         "split": null
       },
       "reasoning": {
@@ -1789,6 +1789,48 @@
       "listed": "2026-01-29"
     },
     {
+      "name": "Claude Opus 5",
+      "names": [
+        "Claude Opus 5"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 72.1,
+        "huggingface": null,
+        "composite": 72.1,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 77.3,
+        "huggingface": null,
+        "composite": 77.3,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 81.4,
+        "huggingface": null,
+        "composite": 81.4,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-opus-5",
+        "input": 5,
+        "output": 25,
+        "free_route": false
+      },
+      "listed": "2026-07-24"
+    },
+    {
       "name": "skt/A.X-K2",
       "names": [
         "skt/A.X-K2"
@@ -1822,48 +1864,6 @@
         "composite": 97.1,
         "split": null
       }
-    },
-    {
-      "name": "Claude Opus 5",
-      "names": [
-        "Claude Opus 5"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 72.1,
-        "huggingface": null,
-        "composite": 72.1,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 77.3,
-        "huggingface": null,
-        "composite": 77.3,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 81.3,
-        "huggingface": null,
-        "composite": 81.3,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "anthropic/claude-opus-5",
-        "input": 5,
-        "output": 25,
-        "free_route": false
-      },
-      "listed": "2026-07-24"
     },
     {
       "name": "nvidia/Nemotron-Cascade-2-30B-A3B",
@@ -2013,8 +2013,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-flash",
-        "input": 0.05,
-        "output": 0.1,
+        "input": 0.14,
+        "output": 0.28,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -2100,9 +2100,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 64.2,
+        "benchlm": 64.3,
         "huggingface": null,
-        "composite": 64.2,
+        "composite": 64.3,
         "split": null
       },
       "reasoning": {
@@ -2177,9 +2177,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 62.5,
+        "benchlm": 62.7,
         "huggingface": null,
-        "composite": 62.5,
+        "composite": 62.7,
         "split": null
       },
       "reasoning": {
@@ -2244,8 +2244,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro",
-        "input": 0.783,
-        "output": 1.566,
+        "input": 0.9553,
+        "output": 1.9105,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -2629,48 +2629,6 @@
       }
     },
     {
-      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
-      "names": [
-        "deepseek-ai/DeepSeek-V4.1-Flash"
-      ],
-      "reliability": {
-        "benchlm": 0.0,
-        "huggingface": 0.25
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": 70.6,
-        "composite": 70.6,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "deepseek/deepseek-v4.1-flash",
-        "input": 0.3,
-        "output": 1.2,
-        "free_route": false
-      },
-      "listed": "2026-09-10"
-    },
-    {
       "name": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
       "names": [
         "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
@@ -2706,6 +2664,49 @@
       }
     },
     {
+      "name": "MiMo-V2.6-Pro",
+      "names": [
+        "MiMo-V2.6-Pro"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 66.1,
+        "huggingface": null,
+        "composite": 66.1,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 79.6,
+        "huggingface": null,
+        "composite": 79.6,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 65.9,
+        "huggingface": null,
+        "composite": 65.9,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "input": 0.435,
+        "output": 0.87,
+        "free_route": false
+      },
+      "listed": "2026-09-21",
+      "first_seen": "2026-09-29"
+    },
+    {
       "name": "Qwen3.8 Max",
       "names": [
         "Qwen3.8 Max"
@@ -2728,9 +2729,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 66.6,
+        "benchlm": 66.7,
         "huggingface": null,
-        "composite": 66.6,
+        "composite": 66.7,
         "split": null
       },
       "math": {
@@ -2937,6 +2938,42 @@
       }
     },
     {
+      "name": "Step 5 Preview",
+      "names": [
+        "Step 5 Preview"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 60.6,
+        "huggingface": null,
+        "composite": 60.6,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 79.6,
+        "huggingface": null,
+        "composite": 79.6,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 67,
+        "huggingface": null,
+        "composite": 67,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "first_seen": "2026-09-29"
+    },
+    {
       "name": "mistralai/Mistral-Large-Instruct-2411",
       "names": [
         "mistralai/Mistral-Large-Instruct-2411"
@@ -3092,8 +3129,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.2",
-        "input": 0.6496,
-        "output": 2.0416,
+        "input": 0.1949,
+        "output": 4.4,
         "free_route": false
       },
       "listed": "2026-06-16"
@@ -3141,6 +3178,48 @@
       "listed": "2025-07-08"
     },
     {
+      "name": "GPT-5.5",
+      "names": [
+        "GPT-5.5"
+      ],
+      "reliability": {
+        "benchlm": 1.0,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 62.7,
+        "huggingface": null,
+        "composite": 62.7,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 66.1,
+        "huggingface": null,
+        "composite": 66.1,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 69.8,
+        "huggingface": null,
+        "composite": 69.8,
+        "split": null
+      },
+      "math": {
+        "benchlm": 69.4,
+        "huggingface": null,
+        "composite": 69.4,
+        "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.5",
+        "input": 5,
+        "output": 30,
+        "free_route": false
+      },
+      "listed": "2026-04-24"
+    },
+    {
       "name": "Kimi K2.6",
       "names": [
         "Kimi K2.6",
@@ -3182,48 +3261,6 @@
         "free_route": false
       },
       "listed": "2026-04-20"
-    },
-    {
-      "name": "GPT-5.5",
-      "names": [
-        "GPT-5.5"
-      ],
-      "reliability": {
-        "benchlm": 1.0,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 62.6,
-        "huggingface": null,
-        "composite": 62.6,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 66.1,
-        "huggingface": null,
-        "composite": 66.1,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 69.8,
-        "huggingface": null,
-        "composite": 69.8,
-        "split": null
-      },
-      "math": {
-        "benchlm": 69.4,
-        "huggingface": null,
-        "composite": 69.4,
-        "split": null
-      },
-      "price": {
-        "id": "openai/gpt-5.5",
-        "input": 5,
-        "output": 30,
-        "free_route": false
-      },
-      "listed": "2026-04-24"
     },
     {
       "name": "Kimi K3",
@@ -3280,10 +3317,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 54.2,
+        "benchlm": 54.5,
         "huggingface": 75.6,
-        "composite": 64.9,
-        "split": 21.4
+        "composite": 65.05,
+        "split": 21.1
       },
       "reasoning": {
         "benchlm": null,
@@ -3316,10 +3353,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 37.1,
+        "benchlm": 37.2,
         "huggingface": 65.4,
-        "composite": 51.25,
-        "split": 28.3
+        "composite": 51.3,
+        "split": 28.2
       },
       "reasoning": {
         "benchlm": 75.5,
@@ -3400,9 +3437,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 55.3,
+        "benchlm": 55.4,
         "huggingface": null,
-        "composite": 55.3,
+        "composite": 55.4,
         "split": null
       },
       "reasoning": {
@@ -3442,9 +3479,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 45.6,
+        "benchlm": 45.7,
         "huggingface": null,
-        "composite": 45.6,
+        "composite": 45.7,
         "split": null
       },
       "reasoning": {
@@ -3528,10 +3565,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 32.3,
+        "benchlm": 32.4,
         "huggingface": 72.4,
-        "composite": 52.35,
-        "split": 40.1
+        "composite": 52.4,
+        "split": 40
       },
       "reasoning": {
         "benchlm": 52.7,
@@ -3984,10 +4021,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 36.1,
+        "benchlm": 36.2,
         "huggingface": 61.5,
-        "composite": 48.8,
-        "split": 25.4
+        "composite": 48.85,
+        "split": 25.3
       },
       "reasoning": {
         "benchlm": 71.6,
@@ -4038,9 +4075,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 70,
+        "benchlm": 70.1,
         "huggingface": null,
-        "composite": 70,
+        "composite": 70.1,
         "split": null
       },
       "math": {
@@ -4147,10 +4184,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 38.4,
+        "benchlm": 38.6,
         "huggingface": 60.8,
-        "composite": 49.6,
-        "split": 22.4
+        "composite": 49.7,
+        "split": 22.2
       },
       "reasoning": {
         "benchlm": 55.2,
@@ -4215,8 +4252,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.1",
-        "input": 0.9646,
-        "output": 3.0316,
+        "input": 1.4,
+        "output": 4.4,
         "free_route": false
       },
       "listed": "2026-04-07"
@@ -4303,9 +4340,9 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 56.7,
+        "benchlm": 56.8,
         "huggingface": null,
-        "composite": 56.7,
+        "composite": 56.8,
         "split": null
       },
       "reasoning": {
@@ -4345,9 +4382,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 61.5,
+        "benchlm": 61.6,
         "huggingface": null,
-        "composite": 61.5,
+        "composite": 61.6,
         "split": null
       },
       "reasoning": {
@@ -4455,7 +4492,7 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro-0813",
-        "input": 0.3949,
+        "input": 0.48,
         "output": 4.2,
         "free_route": false
       },
@@ -4473,10 +4510,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 54.9,
+        "benchlm": 55,
         "huggingface": 62.5,
-        "composite": 58.7,
-        "split": 7.6
+        "composite": 58.75,
+        "split": 7.5
       },
       "reasoning": {
         "benchlm": 77.1,
@@ -4508,9 +4545,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 42.7,
+        "benchlm": 42.9,
         "huggingface": null,
-        "composite": 42.7,
+        "composite": 42.9,
         "split": null
       },
       "reasoning": {
@@ -4538,6 +4575,49 @@
         "free_route": false
       },
       "listed": "2026-06-03"
+    },
+    {
+      "name": "DeepSeek V4.1 Flash",
+      "names": [
+        "DeepSeek V4.1 Flash",
+        "deepseek-ai/DeepSeek-V4.1-Flash"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.25
+      },
+      "sources_present": 2,
+      "coding": {
+        "benchlm": 49.5,
+        "huggingface": null,
+        "composite": 49.5,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 79.6,
+        "huggingface": 70.6,
+        "composite": 75.1,
+        "split": 9
+      },
+      "knowledge": {
+        "benchlm": 61.3,
+        "huggingface": null,
+        "composite": 61.3,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "input": 0.3,
+        "output": 1.2,
+        "free_route": false
+      },
+      "listed": "2026-09-10"
     },
     {
       "name": "poolside/Laguna-M.1",
@@ -4698,10 +4778,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 35.8,
+        "benchlm": 36,
         "huggingface": 63.6,
-        "composite": 49.7,
-        "split": 27.8
+        "composite": 49.8,
+        "split": 27.6
       },
       "reasoning": {
         "benchlm": 79.6,
@@ -4903,9 +4983,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 57.9,
+        "benchlm": 58,
         "huggingface": null,
-        "composite": 57.9,
+        "composite": 58,
         "split": null
       },
       "reasoning": {
@@ -4915,9 +4995,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 63.8,
+        "benchlm": 63.9,
         "huggingface": null,
-        "composite": 63.8,
+        "composite": 63.9,
         "split": null
       },
       "math": {
@@ -5294,6 +5374,84 @@
       "listed": "2026-07-02"
     },
     {
+      "name": "Ling 3.0 Flash VL",
+      "names": [
+        "Ling 3.0 Flash VL"
+      ],
+      "reliability": {
+        "benchlm": 0.5,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 76.1,
+        "huggingface": null,
+        "composite": 76.1,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 42.2,
+        "huggingface": null,
+        "composite": 42.2,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "inclusionai/ling-3.0-flash-vl",
+        "input": 0.021,
+        "output": 0.0616,
+        "free_route": false
+      },
+      "listed": "2026-09-10",
+      "first_seen": "2026-09-29"
+    },
+    {
+      "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "names": [
+        "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+      ],
+      "reliability": {
+        "benchlm": 0.0,
+        "huggingface": 0.75
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": 52.8,
+        "composite": 52.8,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": 43,
+        "composite": 43,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": null,
+        "huggingface": 81.6,
+        "composite": 81.6,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
       "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
       "names": [
         "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
@@ -5327,6 +5485,49 @@
         "composite": null,
         "split": null
       }
+    },
+    {
+      "name": "MiMo-V2.6-Flash",
+      "names": [
+        "MiMo-V2.6-Flash"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 49.4,
+        "huggingface": null,
+        "composite": 49.4,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 73.4,
+        "huggingface": null,
+        "composite": 73.4,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 54.1,
+        "huggingface": null,
+        "composite": 54.1,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "input": 0.14,
+        "output": 0.28,
+        "free_route": false
+      },
+      "listed": "2026-09-21",
+      "first_seen": "2026-09-29"
     },
     {
       "name": "LGAI-EXAONE/EXAONE-3.5-32B-Instruct",
@@ -5416,9 +5617,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 45.1,
+        "benchlm": 45.2,
         "huggingface": null,
-        "composite": 45.1,
+        "composite": 45.2,
         "split": null
       },
       "reasoning": {
@@ -5490,6 +5691,48 @@
       "listed": "2026-05-19"
     },
     {
+      "name": "GLM-5-Turbo",
+      "names": [
+        "GLM-5-Turbo"
+      ],
+      "reliability": {
+        "benchlm": 0.5,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 71.6,
+        "huggingface": null,
+        "composite": 71.6,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 45.7,
+        "huggingface": null,
+        "composite": 45.7,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "z-ai/glm-5",
+        "input": 0.6,
+        "output": 1.92,
+        "free_route": false
+      },
+      "listed": "2026-02-11"
+    },
+    {
       "name": "XiaomiMiMo/MiMo-7B-RL",
       "names": [
         "XiaomiMiMo/MiMo-7B-RL"
@@ -5525,48 +5768,6 @@
       }
     },
     {
-      "name": "GLM-5-Turbo",
-      "names": [
-        "GLM-5-Turbo"
-      ],
-      "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 71.6,
-        "huggingface": null,
-        "composite": 71.6,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 45.6,
-        "huggingface": null,
-        "composite": 45.6,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "z-ai/glm-5",
-        "input": 0.6,
-        "output": 1.92,
-        "free_route": false
-      },
-      "listed": "2026-02-11"
-    },
-    {
       "name": "Grok 4.5",
       "names": [
         "Grok 4.5"
@@ -5577,9 +5778,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 57.9,
+        "benchlm": 58,
         "huggingface": null,
-        "composite": 57.9,
+        "composite": 58,
         "split": null
       },
       "reasoning": {
@@ -5589,9 +5790,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 67.1,
+        "benchlm": 67.2,
         "huggingface": null,
-        "composite": 67.1,
+        "composite": 67.2,
         "split": null
       },
       "math": {
@@ -5619,9 +5820,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 56.9,
+        "benchlm": 57.2,
         "huggingface": null,
-        "composite": 56.9,
+        "composite": 57.2,
         "split": null
       },
       "reasoning": {
@@ -5827,8 +6028,8 @@
       },
       "price": {
         "id": "qwen/qwen3.8-27b",
-        "input": 0.42,
-        "output": 3,
+        "input": 0.0449,
+        "output": 4.4,
         "free_route": true
       },
       "listed": "2026-08-14"
@@ -6111,9 +6312,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 40.3,
+        "benchlm": 40.5,
         "huggingface": null,
-        "composite": 40.3,
+        "composite": 40.5,
         "split": null
       },
       "reasoning": {
@@ -6258,9 +6459,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 42.1,
+        "benchlm": 42.3,
         "huggingface": null,
-        "composite": 42.1,
+        "composite": 42.3,
         "split": null
       },
       "reasoning": {
@@ -6396,8 +6597,8 @@
       },
       "price": {
         "id": "minimax/minimax-m2.7",
-        "input": 0.3,
-        "output": 1.2,
+        "input": 0.21,
+        "output": 0.84,
         "free_route": false
       },
       "listed": "2026-03-18"
@@ -6580,9 +6781,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 53,
+        "benchlm": 53.1,
         "huggingface": null,
-        "composite": 53,
+        "composite": 53.1,
         "split": null
       },
       "math": {
@@ -6610,9 +6811,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 42.4,
+        "benchlm": 42.5,
         "huggingface": null,
-        "composite": 42.4,
+        "composite": 42.5,
         "split": null
       },
       "reasoning": {
@@ -6699,9 +6900,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 66.5,
+        "benchlm": 66.6,
         "huggingface": null,
-        "composite": 66.5,
+        "composite": 66.6,
         "split": null
       },
       "math": {
@@ -6729,9 +6930,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 38.7,
+        "benchlm": 38.8,
         "huggingface": null,
-        "composite": 38.7,
+        "composite": 38.8,
         "split": null
       },
       "reasoning": {
@@ -6759,6 +6960,48 @@
         "free_route": false
       },
       "listed": "2025-11-13"
+    },
+    {
+      "name": "GPT-5.2",
+      "names": [
+        "GPT-5.2"
+      ],
+      "reliability": {
+        "benchlm": 1.0,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 39.6,
+        "huggingface": null,
+        "composite": 39.6,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 60.7,
+        "huggingface": null,
+        "composite": 60.7,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 57.9,
+        "huggingface": null,
+        "composite": 57.9,
+        "split": null
+      },
+      "math": {
+        "benchlm": 57.4,
+        "huggingface": null,
+        "composite": 57.4,
+        "split": null
+      },
+      "price": {
+        "id": "openai/gpt-5.2",
+        "input": 1.75,
+        "output": 14,
+        "free_route": false
+      },
+      "listed": "2025-12-10"
     },
     {
       "name": "CohereLabs/North-Mini-Code-1.0",
@@ -6796,46 +7039,40 @@
       }
     },
     {
-      "name": "GPT-5.2",
+      "name": "Quasar 438B",
       "names": [
-        "GPT-5.2"
+        "Quasar 438B"
       ],
       "reliability": {
-        "benchlm": 1.0,
+        "benchlm": 0.75,
         "huggingface": 0.0
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 39.5,
+        "benchlm": 40.8,
         "huggingface": null,
-        "composite": 39.5,
+        "composite": 40.8,
         "split": null
       },
       "reasoning": {
-        "benchlm": 60.7,
+        "benchlm": 74.8,
         "huggingface": null,
-        "composite": 60.7,
+        "composite": 74.8,
         "split": null
       },
       "knowledge": {
-        "benchlm": 57.9,
+        "benchlm": 43.5,
         "huggingface": null,
-        "composite": 57.9,
+        "composite": 43.5,
         "split": null
       },
       "math": {
-        "benchlm": 57.4,
+        "benchlm": null,
         "huggingface": null,
-        "composite": 57.4,
+        "composite": null,
         "split": null
       },
-      "price": {
-        "id": "openai/gpt-5.2",
-        "input": 1.75,
-        "output": 14,
-        "free_route": false
-      },
-      "listed": "2025-12-10"
+      "first_seen": "2026-09-29"
     },
     {
       "name": "meta-llama/Meta-Llama-3-70B",
@@ -7116,10 +7353,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 26.6,
+        "benchlm": 26.7,
         "huggingface": 77.6,
-        "composite": 52.1,
-        "split": 51
+        "composite": 52.15,
+        "split": 50.9
       },
       "reasoning": {
         "benchlm": 69.9,
@@ -7186,9 +7423,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 34.1,
+        "benchlm": 34.3,
         "huggingface": null,
-        "composite": 34.1,
+        "composite": 34.3,
         "split": null
       },
       "reasoning": {
@@ -7221,9 +7458,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 44.4,
+        "benchlm": 44.7,
         "huggingface": null,
-        "composite": 44.4,
+        "composite": 44.7,
         "split": null
       },
       "reasoning": {
@@ -7256,9 +7493,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 38,
+        "benchlm": 38.2,
         "huggingface": null,
-        "composite": 38,
+        "composite": 38.2,
         "split": null
       },
       "reasoning": {
@@ -7361,9 +7598,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 32.6,
+        "benchlm": 32.8,
         "huggingface": null,
-        "composite": 32.6,
+        "composite": 32.8,
         "split": null
       },
       "reasoning": {
@@ -7403,9 +7640,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 36.2,
+        "benchlm": 36.3,
         "huggingface": null,
-        "composite": 36.2,
+        "composite": 36.3,
         "split": null
       },
       "reasoning": {
@@ -7634,9 +7871,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 33.9,
+        "benchlm": 34.1,
         "huggingface": null,
-        "composite": 33.9,
+        "composite": 34.1,
         "split": null
       },
       "reasoning": {
@@ -7677,10 +7914,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 32,
+        "benchlm": 32.2,
         "huggingface": 56.3,
-        "composite": 44.15,
-        "split": 24.3
+        "composite": 44.25,
+        "split": 24.1
       },
       "reasoning": {
         "benchlm": 73,
@@ -7754,9 +7991,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 38.7,
+        "benchlm": 38.9,
         "huggingface": null,
-        "composite": 38.7,
+        "composite": 38.9,
         "split": null
       },
       "reasoning": {
@@ -7796,9 +8033,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 35.4,
+        "benchlm": 35.5,
         "huggingface": null,
-        "composite": 35.4,
+        "composite": 35.5,
         "split": null
       },
       "reasoning": {
@@ -7910,10 +8147,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 23.6,
+        "benchlm": 23.7,
         "huggingface": 61.2,
-        "composite": 42.4,
-        "split": 37.6
+        "composite": 42.45,
+        "split": 37.5
       },
       "reasoning": {
         "benchlm": 43.7,
@@ -8057,9 +8294,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 27.2,
+        "benchlm": 27.4,
         "huggingface": null,
-        "composite": 27.2,
+        "composite": 27.4,
         "split": null
       },
       "reasoning": {
@@ -8171,10 +8408,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 26.5,
+        "benchlm": 26.6,
         "huggingface": 35.3,
-        "composite": 30.9,
-        "split": 8.8
+        "composite": 30.95,
+        "split": 8.7
       },
       "reasoning": {
         "benchlm": 58,
@@ -8196,8 +8433,8 @@
       },
       "price": {
         "id": "openai/gpt-oss-120b",
-        "input": 0.15,
-        "output": 0.6,
+        "input": 0.037,
+        "output": 0.17,
         "free_route": false
       },
       "listed": "2025-08-05"
@@ -8214,10 +8451,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 23.8,
+        "benchlm": 23.9,
         "huggingface": 69.3,
-        "composite": 46.55,
-        "split": 45.5
+        "composite": 46.6,
+        "split": 45.4
       },
       "reasoning": {
         "benchlm": null,
@@ -8464,8 +8701,8 @@
       },
       "price": {
         "id": "google/gemma-4-26b-a4b-it",
-        "input": 0.0765,
-        "output": 0.255,
+        "input": 0.09,
+        "output": 0.3,
         "free_route": true
       },
       "listed": "2026-04-03"
@@ -8496,6 +8733,41 @@
         "benchlm": null,
         "huggingface": 45.7,
         "composite": 45.7,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
+      "name": "Grok 4 Fast (Reasoning)",
+      "names": [
+        "Grok 4 Fast (Reasoning)"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 23.5,
+        "huggingface": null,
+        "composite": 23.5,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 73,
+        "huggingface": null,
+        "composite": 73,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 39.8,
+        "huggingface": null,
+        "composite": 39.8,
         "split": null
       },
       "math": {
@@ -8581,41 +8853,6 @@
         "free_route": false
       },
       "listed": "2025-08-21"
-    },
-    {
-      "name": "Grok 4 Fast (Reasoning)",
-      "names": [
-        "Grok 4 Fast (Reasoning)"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 23.3,
-        "huggingface": null,
-        "composite": 23.3,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 73,
-        "huggingface": null,
-        "composite": 73,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 39.8,
-        "huggingface": null,
-        "composite": 39.8,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
     },
     {
       "name": "JetBrains/Mellum2-12B-A2.5B-Base",
@@ -8884,42 +9121,6 @@
       "listed": "2025-04-14"
     },
     {
-      "name": "Nemotron 3.5 Lightning 30B A3B NVFP4",
-      "names": [
-        "Nemotron 3.5 Lightning 30B A3B NVFP4",
-        "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.75
-      },
-      "sources_present": 2,
-      "coding": {
-        "benchlm": 11.3,
-        "huggingface": 52.8,
-        "composite": 32.05,
-        "split": 41.5
-      },
-      "reasoning": {
-        "benchlm": 56,
-        "huggingface": 43,
-        "composite": 49.5,
-        "split": 13
-      },
-      "knowledge": {
-        "benchlm": 20.8,
-        "huggingface": 81.6,
-        "composite": 51.2,
-        "split": 60.8
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "Qwen 3.6 Max (preview)",
       "names": [
         "Qwen 3.6 Max (preview)"
@@ -8930,9 +9131,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 46.8,
+        "benchlm": 46.9,
         "huggingface": null,
-        "composite": 46.8,
+        "composite": 46.9,
         "split": null
       },
       "reasoning": {
@@ -9043,10 +9244,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 21.8,
+        "benchlm": 22,
         "huggingface": 50.4,
-        "composite": 36.1,
-        "split": 28.6
+        "composite": 36.2,
+        "split": 28.4
       },
       "reasoning": {
         "benchlm": 46,
@@ -9197,9 +9398,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 27.6,
+        "benchlm": 27.7,
         "huggingface": null,
-        "composite": 27.6,
+        "composite": 27.7,
         "split": null
       },
       "reasoning": {
@@ -9344,9 +9545,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 31.9,
+        "benchlm": 32,
         "huggingface": null,
-        "composite": 31.9,
+        "composite": 32,
         "split": null
       },
       "reasoning": {
@@ -9709,9 +9910,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19.2,
+        "benchlm": 19.3,
         "huggingface": null,
-        "composite": 19.2,
+        "composite": 19.3,
         "split": null
       },
       "reasoning": {
@@ -9969,9 +10170,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 21.5,
+        "benchlm": 21.7,
         "huggingface": null,
-        "composite": 21.5,
+        "composite": 21.7,
         "split": null
       },
       "reasoning": {
@@ -9992,6 +10193,48 @@
         "composite": null,
         "split": null
       }
+    },
+    {
+      "name": "Mistral Small 4",
+      "names": [
+        "Mistral Small 4"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 24.9,
+        "huggingface": null,
+        "composite": 24.9,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 56.4,
+        "huggingface": null,
+        "composite": 56.4,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 34.9,
+        "huggingface": null,
+        "composite": 34.9,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "mistralai/mistral-small-2603",
+        "input": 0.15,
+        "output": 0.6,
+        "free_route": false
+      },
+      "listed": "2026-03-16"
     },
     {
       "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
@@ -10036,31 +10279,31 @@
       "listed": "2025-07-23"
     },
     {
-      "name": "Mistral Small 4",
+      "name": "Solar Pro 3",
       "names": [
-        "Mistral Small 4"
+        "Solar Pro 3"
       ],
       "reliability": {
-        "benchlm": 0.75,
+        "benchlm": 0.5,
         "huggingface": 0.0
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 24.8,
+        "benchlm": null,
         "huggingface": null,
-        "composite": 24.8,
+        "composite": null,
         "split": null
       },
       "reasoning": {
-        "benchlm": 56.4,
+        "benchlm": 44.4,
         "huggingface": null,
-        "composite": 56.4,
+        "composite": 44.4,
         "split": null
       },
       "knowledge": {
-        "benchlm": 34.9,
+        "benchlm": 32.7,
         "huggingface": null,
-        "composite": 34.9,
+        "composite": 32.7,
         "split": null
       },
       "math": {
@@ -10070,12 +10313,13 @@
         "split": null
       },
       "price": {
-        "id": "mistralai/mistral-small-2603",
+        "id": "upstage/solar-pro-3",
         "input": 0.15,
         "output": 0.6,
         "free_route": false
       },
-      "listed": "2026-03-16"
+      "listed": "2026-01-27",
+      "first_seen": "2026-09-29"
     },
     {
       "name": "MiMo-V2-Flash",
@@ -10089,9 +10333,9 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 32.1,
+        "benchlm": 32.3,
         "huggingface": null,
-        "composite": 32.1,
+        "composite": 32.3,
         "split": null
       },
       "reasoning": {
@@ -10219,6 +10463,48 @@
       }
     },
     {
+      "name": "Command A+",
+      "names": [
+        "Command A+"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 26.1,
+        "huggingface": null,
+        "composite": 26.1,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 58.5,
+        "huggingface": null,
+        "composite": 58.5,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 29.2,
+        "huggingface": null,
+        "composite": 29.2,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "cohere/command-a",
+        "input": 2.5,
+        "output": 10,
+        "free_route": false
+      },
+      "listed": "2025-03-13"
+    },
+    {
       "name": "CohereLabs/c4ai-command-r-v01",
       "names": [
         "CohereLabs/c4ai-command-r-v01"
@@ -10252,48 +10538,6 @@
         "composite": null,
         "split": null
       }
-    },
-    {
-      "name": "Command A+",
-      "names": [
-        "Command A+"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 26,
-        "huggingface": null,
-        "composite": 26,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 58.5,
-        "huggingface": null,
-        "composite": 58.5,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 29.2,
-        "huggingface": null,
-        "composite": 29.2,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "cohere/command-a",
-        "input": 2.5,
-        "output": 10,
-        "free_route": false
-      },
-      "listed": "2025-03-13"
     },
     {
       "name": "mistralai/Ministral-8B-Instruct-2410",
@@ -10383,9 +10627,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 22.3,
+        "benchlm": 22.4,
         "huggingface": null,
-        "composite": 22.3,
+        "composite": 22.4,
         "split": null
       },
       "reasoning": {
@@ -10425,9 +10669,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 27.3,
+        "benchlm": 27.4,
         "huggingface": null,
-        "composite": 27.3,
+        "composite": 27.4,
         "split": null
       },
       "reasoning": {
@@ -10698,9 +10942,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 26.6,
+        "benchlm": 26.7,
         "huggingface": null,
-        "composite": 26.6,
+        "composite": 26.7,
         "split": null
       },
       "reasoning": {
@@ -10741,9 +10985,9 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 18.9,
+        "benchlm": 19,
         "huggingface": null,
-        "composite": 18.9,
+        "composite": 19,
         "split": null
       },
       "reasoning": {
@@ -10895,9 +11139,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 21.9,
+        "benchlm": 22,
         "huggingface": null,
-        "composite": 21.9,
+        "composite": 22,
         "split": null
       },
       "reasoning": {
@@ -10985,9 +11229,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 35.8,
+        "benchlm": 35.9,
         "huggingface": null,
-        "composite": 35.8,
+        "composite": 35.9,
         "split": null
       },
       "math": {
@@ -11120,9 +11364,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 20.5,
+        "benchlm": 20.6,
         "huggingface": null,
-        "composite": 20.5,
+        "composite": 20.6,
         "split": null
       },
       "reasoning": {
@@ -11225,9 +11469,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 18.6,
+        "benchlm": 18.7,
         "huggingface": null,
-        "composite": 18.6,
+        "composite": 18.7,
         "split": null
       },
       "reasoning": {
@@ -11337,9 +11581,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 18.4,
+        "benchlm": 18.5,
         "huggingface": null,
-        "composite": 18.4,
+        "composite": 18.5,
         "split": null
       },
       "reasoning": {
@@ -11372,9 +11616,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19.9,
+        "benchlm": 20,
         "huggingface": null,
-        "composite": 19.9,
+        "composite": 20,
         "split": null
       },
       "reasoning": {
@@ -11414,9 +11658,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 18.3,
+        "benchlm": 18.4,
         "huggingface": null,
-        "composite": 18.3,
+        "composite": 18.4,
         "split": null
       },
       "reasoning": {
@@ -11456,9 +11700,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 26.3,
+        "benchlm": 26.4,
         "huggingface": null,
-        "composite": 26.3,
+        "composite": 26.4,
         "split": null
       },
       "reasoning": {
@@ -11486,6 +11730,42 @@
         "free_route": false
       },
       "listed": "2026-02-25"
+    },
+    {
+      "name": "Celeris-1",
+      "names": [
+        "Celeris-1"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 19.8,
+        "huggingface": null,
+        "composite": 19.8,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 48.3,
+        "huggingface": null,
+        "composite": 48.3,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 28.9,
+        "huggingface": null,
+        "composite": 28.9,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "first_seen": "2026-09-29"
     },
     {
       "name": "Qwen/Qwen2.5-1.5B",
@@ -11568,9 +11848,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 20.2,
+        "benchlm": 20.3,
         "huggingface": null,
-        "composite": 20.2,
+        "composite": 20.3,
         "split": null
       },
       "reasoning": {
@@ -11663,41 +11943,6 @@
       }
     },
     {
-      "name": "Claude 3 Haiku",
-      "names": [
-        "Claude 3 Haiku"
-      ],
-      "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 41.2,
-        "huggingface": null,
-        "composite": 41.2,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 20.1,
-        "huggingface": null,
-        "composite": 20.1,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "GLM-4.6",
       "names": [
         "GLM-4.6",
@@ -11709,10 +11954,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 27.3,
+        "benchlm": 27.4,
         "huggingface": 9.7,
-        "composite": 18.5,
-        "split": 17.6
+        "composite": 18.55,
+        "split": 17.7
       },
       "reasoning": {
         "benchlm": 40.2,
@@ -11721,9 +11966,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 36,
+        "benchlm": 36.1,
         "huggingface": null,
-        "composite": 36,
+        "composite": 36.1,
         "split": null
       },
       "math": {
@@ -11786,9 +12031,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 29.7,
+        "benchlm": 29.8,
         "huggingface": null,
-        "composite": 29.7,
+        "composite": 29.8,
         "split": null
       },
       "reasoning": {
@@ -11945,9 +12190,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 28.6,
+        "benchlm": 28.7,
         "huggingface": null,
-        "composite": 28.6,
+        "composite": 28.7,
         "split": null
       },
       "math": {
@@ -12224,6 +12469,41 @@
       }
     },
     {
+      "name": "Gemma 4 E2B",
+      "names": [
+        "Gemma 4 E2B"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 19.3,
+        "huggingface": null,
+        "composite": 19.3,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 33.3,
+        "huggingface": null,
+        "composite": 33.3,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 27.8,
+        "huggingface": null,
+        "composite": 27.8,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
       "name": "Llama 4 Scout",
       "names": [
         "Llama 4 Scout"
@@ -12266,31 +12546,31 @@
       "listed": "2025-04-05"
     },
     {
-      "name": "Gemma 4 E2B",
+      "name": "Granite-4.0-H-1B",
       "names": [
-        "Gemma 4 E2B"
+        "Granite-4.0-H-1B"
       ],
       "reliability": {
-        "benchlm": 0.75,
+        "benchlm": 0.5,
         "huggingface": 0.0
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19.2,
+        "benchlm": null,
         "huggingface": null,
-        "composite": 19.2,
+        "composite": null,
         "split": null
       },
       "reasoning": {
-        "benchlm": 33.3,
+        "benchlm": 26.9,
         "huggingface": null,
-        "composite": 33.3,
+        "composite": 26.9,
         "split": null
       },
       "knowledge": {
-        "benchlm": 27.8,
+        "benchlm": 26.2,
         "huggingface": null,
-        "composite": 27.8,
+        "composite": 26.2,
         "split": null
       },
       "math": {
@@ -12336,41 +12616,6 @@
       }
     },
     {
-      "name": "Granite-4.0-H-1B",
-      "names": [
-        "Granite-4.0-H-1B"
-      ],
-      "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 26.9,
-        "huggingface": null,
-        "composite": 26.9,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 26.1,
-        "huggingface": null,
-        "composite": 26.1,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "Gemini 1.5 Pro",
       "names": [
         "Gemini 1.5 Pro"
@@ -12381,9 +12626,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 22.3,
+        "benchlm": 22.4,
         "huggingface": null,
-        "composite": 22.3,
+        "composite": 22.4,
         "split": null
       },
       "reasoning": {
@@ -12556,9 +12801,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 15.1,
+        "benchlm": 15.2,
         "huggingface": null,
-        "composite": 15.1,
+        "composite": 15.2,
         "split": null
       },
       "reasoning": {
@@ -12598,9 +12843,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19.6,
+        "benchlm": 19.7,
         "huggingface": null,
-        "composite": 19.6,
+        "composite": 19.7,
         "split": null
       },
       "reasoning": {
@@ -12997,9 +13242,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 13,
+        "benchlm": 13.1,
         "huggingface": null,
-        "composite": 13,
+        "composite": 13.1,
         "split": null
       },
       "reasoning": {
@@ -13074,9 +13319,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19.5,
+        "benchlm": 19.6,
         "huggingface": null,
-        "composite": 19.5,
+        "composite": 19.6,
         "split": null
       },
       "reasoning": {
@@ -13109,9 +13354,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 14.9,
+        "benchlm": 15,
         "huggingface": null,
-        "composite": 14.9,
+        "composite": 15,
         "split": null
       },
       "reasoning": {
@@ -13144,9 +13389,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 19,
+        "benchlm": 19.1,
         "huggingface": null,
-        "composite": 19,
+        "composite": 19.1,
         "split": null
       },
       "reasoning": {
@@ -13218,6 +13463,41 @@
       "listed": "2024-09-25"
     },
     {
+      "name": "Ministral 3 8B",
+      "names": [
+        "Ministral 3 8B"
+      ],
+      "reliability": {
+        "benchlm": 0.25,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 18.4,
+        "huggingface": null,
+        "composite": 18.4,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
       "name": "HuggingFaceTB/SmolLM2-1.7B",
       "names": [
         "HuggingFaceTB/SmolLM2-1.7B"
@@ -13253,76 +13533,6 @@
       }
     },
     {
-      "name": "Ministral 3 8B",
-      "names": [
-        "Ministral 3 8B"
-      ],
-      "reliability": {
-        "benchlm": 0.25,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 18.3,
-        "huggingface": null,
-        "composite": 18.3,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
-      "name": "Ministral 3 3B",
-      "names": [
-        "Ministral 3 3B"
-      ],
-      "reliability": {
-        "benchlm": 0.25,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 17,
-        "huggingface": null,
-        "composite": 17,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
-    },
-    {
       "name": "GPT-4o mini",
       "names": [
         "GPT-4o mini"
@@ -13333,9 +13543,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 12.1,
+        "benchlm": 12.2,
         "huggingface": null,
-        "composite": 12.1,
+        "composite": 12.2,
         "split": null
       },
       "reasoning": {
@@ -13363,41 +13573,6 @@
         "free_route": false
       },
       "listed": "2024-07-18"
-    },
-    {
-      "name": "Gemini 1.0 Pro",
-      "names": [
-        "Gemini 1.0 Pro"
-      ],
-      "reliability": {
-        "benchlm": 0.25,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 15.9,
-        "huggingface": null,
-        "composite": 15.9,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
     },
     {
       "name": "Qwen/Qwen2-0.5B",
@@ -13480,9 +13655,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 14.1,
+        "benchlm": 14.2,
         "huggingface": null,
-        "composite": 14.1,
+        "composite": 14.2,
         "split": null
       },
       "reasoning": {
@@ -13695,9 +13870,9 @@
     }
   ],
   "latest": {
-    "name": "Claude Sonnet 5.5",
-    "date": "2026-09-28",
-    "kind": "listed"
+    "name": "Ling 3.0 Flash VL",
+    "date": "2026-09-29",
+    "kind": "arrived"
   },
   "releases": [
     {
@@ -13836,20 +14011,6 @@
       "output": 8.7
     },
     {
-      "name": "MiMo-V2.6-Pro",
-      "id": "xiaomi/mimo-v2.6-pro",
-      "listed": "2026-09-21",
-      "input": 0.435,
-      "output": 0.87
-    },
-    {
-      "name": "MiMo-V2.6-Flash",
-      "id": "xiaomi/mimo-v2.6-flash",
-      "listed": "2026-09-21",
-      "input": 0.14,
-      "output": 0.28
-    },
-    {
       "name": "Grok 4.7",
       "id": "x-ai/grok-4.7",
       "listed": "2026-09-21",
@@ -13862,6 +14023,13 @@
       "listed": "2026-09-18",
       "input": 0.37,
       "output": 1.25
+    },
+    {
+      "name": "Pareto",
+      "id": "unbiased/pareto",
+      "listed": "2026-09-17",
+      "input": 2.5,
+      "output": 7.5
     }
   ]
 }
