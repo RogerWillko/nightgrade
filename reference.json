@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-03T06:10:07-06:00",
+  "fetched": "2026-10-04T06:10:08-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -2007,8 +2007,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-flash",
-        "input": 0.028,
-        "output": 0.056,
+        "input": 0.0224,
+        "output": 1.28,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -3166,8 +3166,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.2",
-        "input": 0.41,
-        "output": 3.99,
+        "input": 0.38,
+        "output": 3.49,
         "free_route": false
       },
       "listed": "2026-06-16"
@@ -3414,8 +3414,8 @@
       },
       "price": {
         "id": "moonshotai/kimi-k3",
-        "input": 2.7,
-        "output": 13.5,
+        "input": 0.72,
+        "output": 13,
         "free_route": false
       },
       "listed": "2026-07-16"
@@ -3543,8 +3543,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4.1-flash",
-        "input": 0.3,
-        "output": 1.2,
+        "input": 0.003,
+        "output": 2.4,
         "free_route": false
       },
       "listed": "2026-09-10"
@@ -4565,8 +4565,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro-0813",
-        "input": 0.66,
-        "output": 1.98,
+        "input": 0.85,
+        "output": 5,
         "free_route": false
       },
       "listed": "2026-08-12"
@@ -6100,8 +6100,8 @@
       },
       "price": {
         "id": "qwen/qwen3.8-27b",
-        "input": 0.42,
-        "output": 3,
+        "input": 0.425,
+        "output": 2.55,
         "free_route": true
       },
       "listed": "2026-08-14"
@@ -7148,8 +7148,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-chat-v3-0324",
-        "input": 0.29,
-        "output": 1.14,
+        "input": 0.25,
+        "output": 1,
         "free_route": false
       },
       "listed": "2025-03-24"
@@ -13915,9 +13915,9 @@
     }
   ],
   "latest": {
-    "name": "Gemini 4 Argon",
-    "date": "2026-10-03",
-    "kind": "arrived"
+    "name": "GPT-6.1 Sol",
+    "date": "2026-09-29",
+    "kind": "listed"
   },
   "releases": [
     {
