@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-11T06:10:10-06:00",
+  "fetched": "2026-10-12T06:10:08-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -2395,8 +2395,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro",
-        "input": 0.2088,
-        "output": 0.4176,
+        "input": 0.9553,
+        "output": 1.9105,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -3290,8 +3290,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4.1-flash",
-        "input": 0.3,
-        "output": 1.2,
+        "input": 0.15,
+        "output": 0.6,
         "free_route": false
       },
       "listed": "2026-09-10"
@@ -3864,7 +3864,7 @@
       },
       "price": {
         "id": "moonshotai/kimi-k3",
-        "input": 0.8,
+        "input": 0.73,
         "output": 10,
         "free_route": false
       },
@@ -4613,7 +4613,7 @@
       },
       "price": {
         "id": "z-ai/glm-5.3",
-        "input": 0.039,
+        "input": 0.079,
         "output": 4.8,
         "free_route": false
       },
@@ -6079,8 +6079,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.3-flash",
-        "input": 0.15,
-        "output": 0.5,
+        "input": 0.0232,
+        "output": 1.2,
         "free_route": false
       },
       "listed": "2026-08-26"
@@ -10069,8 +10069,8 @@
       },
       "price": {
         "id": "google/gemma-4-26b-a4b-it",
-        "input": 0.0675,
-        "output": 0.225,
+        "input": 0.09,
+        "output": 0.3,
         "free_route": true
       },
       "listed": "2026-04-03"
@@ -12609,8 +12609,8 @@
       },
       "price": {
         "id": "meta-llama/llama-4-scout",
-        "input": 0.1,
-        "output": 0.3,
+        "input": 0.18,
+        "output": 0.59,
         "free_route": false
       },
       "listed": "2025-04-05"
@@ -14020,19 +14020,6 @@
       "note": "Text to speech.",
       "until": "2026-10-12",
       "listed": "2026-09-28"
-    },
-    {
-      "name": "Naive-N0.5-Flash",
-      "id": "NaiveAI/Naive-N0.5-Flash",
-      "input": 0.1,
-      "output": 0.4,
-      "unit": "per million output tokens",
-      "source": "https://github.com/NaiveAI-Labs/Naive-N0.5-Flash",
-      "source_key": "naive",
-      "origin": "maker",
-      "note": "Announced API price. The model card says API access will also be provided.",
-      "card": "Maker's card: 309B MoE, 15.5B active, 1 million token context.",
-      "listed": "2026-09-27"
     }
   ]
 }
