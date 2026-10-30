@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-29T06:10:08-06:00",
+  "fetched": "2026-10-30T06:10:09-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -19,16 +19,16 @@
         {
           "id": "coding",
           "category": "coding",
-          "low": 8.87,
-          "high": 82.86,
-          "n": 140,
+          "low": 9.92,
+          "high": 82.87,
+          "n": 139,
           "spread": true
         },
         {
           "id": "knowledge",
           "category": "knowledge",
-          "low": 20.19,
-          "high": 89.48,
+          "low": 23.02,
+          "high": 89.53,
           "n": 168,
           "spread": true
         },
@@ -45,7 +45,7 @@
           "category": "reasoning",
           "low": 22.9,
           "high": 93.3,
-          "n": 158,
+          "n": 159,
           "spread": true
         }
       ]
@@ -147,7 +147,7 @@
       "url": "https://openrouter.ai/api/v1/models",
       "role": "price",
       "unit": "USD per million tokens",
-      "models": 155
+      "models": 154
     },
     "makers": {
       "ok": false,
@@ -502,9 +502,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 85.7,
+        "benchlm": 85.8,
         "huggingface": null,
-        "composite": 85.7,
+        "composite": 85.8,
         "split": null
       },
       "math": {
@@ -951,9 +951,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 77,
+        "benchlm": 77.1,
         "huggingface": null,
-        "composite": 77,
+        "composite": 77.1,
         "split": null
       },
       "math": {
@@ -994,9 +994,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 81.6,
+        "benchlm": 81.7,
         "huggingface": null,
-        "composite": 81.6,
+        "composite": 81.7,
         "split": null
       },
       "math": {
@@ -1198,6 +1198,48 @@
       }
     },
     {
+      "name": "Claude Fable 5",
+      "names": [
+        "Claude Fable 5"
+      ],
+      "reliability": {
+        "benchlm": 1.0,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 71.4,
+        "huggingface": null,
+        "composite": 71.4,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 84.3,
+        "huggingface": null,
+        "composite": 84.3,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 81.5,
+        "huggingface": null,
+        "composite": 81.5,
+        "split": null
+      },
+      "math": {
+        "benchlm": 96,
+        "huggingface": null,
+        "composite": 96,
+        "split": null
+      },
+      "price": {
+        "id": "anthropic/claude-fable-5",
+        "input": 10,
+        "output": 50,
+        "free_route": false
+      },
+      "listed": "2026-06-09"
+    },
+    {
       "name": "zai-org/GLM-5.1-FP8",
       "names": [
         "zai-org/GLM-5.1-FP8"
@@ -1231,48 +1273,6 @@
         "composite": null,
         "split": null
       }
-    },
-    {
-      "name": "Claude Fable 5",
-      "names": [
-        "Claude Fable 5"
-      ],
-      "reliability": {
-        "benchlm": 1.0,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 71.4,
-        "huggingface": null,
-        "composite": 71.4,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 84.3,
-        "huggingface": null,
-        "composite": 84.3,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 81.4,
-        "huggingface": null,
-        "composite": 81.4,
-        "split": null
-      },
-      "math": {
-        "benchlm": 96,
-        "huggingface": null,
-        "composite": 96,
-        "split": null
-      },
-      "price": {
-        "id": "anthropic/claude-fable-5",
-        "input": 10,
-        "output": 50,
-        "free_route": false
-      },
-      "listed": "2026-06-09"
     },
     {
       "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
@@ -1439,9 +1439,9 @@
         "split": null
       },
       "reasoning": {
-        "benchlm": 78.1,
+        "benchlm": 78.2,
         "huggingface": null,
-        "composite": 78.1,
+        "composite": 78.2,
         "split": null
       },
       "knowledge": {
@@ -1880,9 +1880,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 80.1,
+        "benchlm": 80.2,
         "huggingface": null,
-        "composite": 80.1,
+        "composite": 80.2,
         "split": null
       },
       "math": {
@@ -1898,6 +1898,49 @@
         "free_route": false
       },
       "listed": "2026-09-22"
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "names": [
+        "Kimi K3.1 Pro"
+      ],
+      "reliability": {
+        "benchlm": 0.5,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 82.5,
+        "huggingface": null,
+        "composite": 82.5,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 75.1,
+        "huggingface": null,
+        "composite": 75.1,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "moonshotai/kimi-k3.1-pro",
+        "input": 2,
+        "output": 10,
+        "free_route": false
+      },
+      "listed": "2026-10-23",
+      "first_seen": "2026-10-30"
     },
     {
       "name": "baidu/ERNIE-4.5-300B-A47B-PT",
@@ -2595,8 +2638,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro",
-        "input": 0.9553,
-        "output": 1.9105,
+        "input": 0.8162,
+        "output": 1.6325,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -2997,9 +3040,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 70.7,
+        "benchlm": 70.8,
         "huggingface": null,
-        "composite": 70.7,
+        "composite": 70.8,
         "split": null
       },
       "math": {
@@ -3342,10 +3385,10 @@
         "split": 8.9
       },
       "knowledge": {
-        "benchlm": 50.4,
+        "benchlm": 50.5,
         "huggingface": 87.1,
-        "composite": 68.75,
-        "split": 36.7
+        "composite": 68.8,
+        "split": 36.6
       },
       "math": {
         "benchlm": 83.3,
@@ -3697,9 +3740,9 @@
         "split": 11.6
       },
       "knowledge": {
-        "benchlm": 48,
+        "benchlm": 48.1,
         "huggingface": null,
-        "composite": 48,
+        "composite": 48.1,
         "split": null
       },
       "math": {
@@ -3814,10 +3857,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 54.6,
+        "benchlm": 54.7,
         "huggingface": 75.6,
-        "composite": 65.1,
-        "split": 21
+        "composite": 65.15,
+        "split": 20.9
       },
       "reasoning": {
         "benchlm": null,
@@ -3861,9 +3904,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 61.4,
+        "benchlm": 61.5,
         "huggingface": null,
-        "composite": 61.4,
+        "composite": 61.5,
         "split": null
       },
       "math": {
@@ -4129,8 +4172,8 @@
       },
       "price": {
         "id": "moonshotai/kimi-k3",
-        "input": 0.239,
-        "output": 10.8,
+        "input": 0.192,
+        "output": 15,
         "free_route": false
       },
       "listed": "2026-07-16"
@@ -4207,8 +4250,8 @@
       },
       "price": {
         "id": "qwen/qwen3.6-27b",
-        "input": 0.45,
-        "output": 2.7,
+        "input": 0.32,
+        "output": 3.2,
         "free_route": false
       },
       "listed": "2026-04-27"
@@ -4306,9 +4349,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 64.6,
+        "benchlm": 64.7,
         "huggingface": null,
-        "composite": 64.6,
+        "composite": 64.7,
         "split": null
       },
       "math": {
@@ -4842,8 +4885,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.3",
-        "input": 0.0699,
-        "output": 1.4,
+        "input": 0.08,
+        "output": 3.6,
         "free_route": false
       },
       "listed": "2026-08-18"
@@ -5027,9 +5070,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 59.8,
+        "benchlm": 59.9,
         "huggingface": null,
-        "composite": 59.8,
+        "composite": 59.9,
         "split": null
       },
       "math": {
@@ -5058,9 +5101,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 50.3,
+        "benchlm": 50.4,
         "huggingface": null,
-        "composite": 50.3,
+        "composite": 50.4,
         "split": null
       },
       "reasoning": {
@@ -5319,9 +5362,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 58.5,
+        "benchlm": 58.4,
         "huggingface": null,
-        "composite": 58.5,
+        "composite": 58.4,
         "split": null
       },
       "math": {
@@ -5576,10 +5619,10 @@
       },
       "sources_present": 2,
       "coding": {
-        "benchlm": 58.1,
+        "benchlm": 58,
         "huggingface": 68.7,
-        "composite": 63.4,
-        "split": 10.6
+        "composite": 63.35,
+        "split": 10.7
       },
       "reasoning": {
         "benchlm": 82,
@@ -5607,6 +5650,42 @@
       },
       "listed": "2026-10-02",
       "first_seen": "2026-10-07"
+    },
+    {
+      "name": "Qwen3.8-Flash-Next",
+      "names": [
+        "Qwen/Qwen3.8-Flash-Next",
+        "Qwen3.8-Flash-Next"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.5
+      },
+      "sources_present": 2,
+      "coding": {
+        "benchlm": 50.5,
+        "huggingface": 62.5,
+        "composite": 56.5,
+        "split": 12
+      },
+      "reasoning": {
+        "benchlm": 79.8,
+        "huggingface": 63.8,
+        "composite": 71.8,
+        "split": 16
+      },
+      "knowledge": {
+        "benchlm": 55.9,
+        "huggingface": null,
+        "composite": 55.9,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
     },
     {
       "name": "skt/A.X-K1",
@@ -5685,42 +5764,6 @@
         "free_route": false
       },
       "listed": "2026-04-22"
-    },
-    {
-      "name": "Qwen3.8-Flash-Next",
-      "names": [
-        "Qwen/Qwen3.8-Flash-Next",
-        "Qwen3.8-Flash-Next"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.5
-      },
-      "sources_present": 2,
-      "coding": {
-        "benchlm": 50.5,
-        "huggingface": 62.5,
-        "composite": 56.5,
-        "split": 12
-      },
-      "reasoning": {
-        "benchlm": 79.8,
-        "huggingface": 63.8,
-        "composite": 71.8,
-        "split": 16
-      },
-      "knowledge": {
-        "benchlm": 55.8,
-        "huggingface": null,
-        "composite": 55.8,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
     },
     {
       "name": "MiMo-V2.6-Flash",
@@ -6296,9 +6339,9 @@
         "split": 36.4
       },
       "knowledge": {
-        "benchlm": 64.1,
+        "benchlm": 64.2,
         "huggingface": null,
-        "composite": 64.1,
+        "composite": 64.2,
         "split": null
       },
       "math": {
@@ -6458,9 +6501,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 65.5,
+        "benchlm": 65.6,
         "huggingface": null,
-        "composite": 65.5,
+        "composite": 65.6,
         "split": null
       },
       "math": {
@@ -6690,9 +6733,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 52,
+        "benchlm": 52.1,
         "huggingface": null,
-        "composite": 52,
+        "composite": 52.1,
         "split": null
       },
       "math": {
@@ -6934,8 +6977,8 @@
       },
       "price": {
         "id": "mistralai/mistral-large-4-0",
-        "input": 1.36,
-        "output": 4.18,
+        "input": 0.7,
+        "output": 2.1,
         "free_route": false
       },
       "listed": "2026-10-06",
@@ -7113,9 +7156,9 @@
         "split": 21.3
       },
       "knowledge": {
-        "benchlm": 47.8,
+        "benchlm": 47.9,
         "huggingface": null,
-        "composite": 47.8,
+        "composite": 47.9,
         "split": null
       },
       "math": {
@@ -7126,8 +7169,8 @@
       },
       "price": {
         "id": "qwen/qwen3.8-27b",
-        "input": 0.039,
-        "output": 1.25,
+        "input": 0.15,
+        "output": 1.875,
         "free_route": false
       },
       "listed": "2026-08-14"
@@ -7632,8 +7675,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.3-flash",
-        "input": 0.0457,
-        "output": 0.0742,
+        "input": 0.15,
+        "output": 0.5,
         "free_route": false
       },
       "listed": "2026-08-26"
@@ -7741,9 +7784,9 @@
         "split": 14
       },
       "knowledge": {
-        "benchlm": 43.2,
+        "benchlm": 43.3,
         "huggingface": null,
-        "composite": 43.2,
+        "composite": 43.3,
         "split": null
       },
       "math": {
@@ -8245,6 +8288,41 @@
       }
     },
     {
+      "name": "GPT-5 (medium)",
+      "names": [
+        "GPT-5 (medium)"
+      ],
+      "reliability": {
+        "benchlm": 0.75,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": 32.6,
+        "huggingface": null,
+        "composite": 32.6,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 77.2,
+        "huggingface": null,
+        "composite": 77.2,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 47.7,
+        "huggingface": null,
+        "composite": 47.7,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      }
+    },
+    {
       "name": "meta-llama/Llama-3.1-70B",
       "names": [
         "meta-llama/Llama-3.1-70B"
@@ -8285,41 +8363,6 @@
         "free_route": false
       },
       "listed": "2024-07-23"
-    },
-    {
-      "name": "GPT-5 (medium)",
-      "names": [
-        "GPT-5 (medium)"
-      ],
-      "reliability": {
-        "benchlm": 0.75,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 32.6,
-        "huggingface": null,
-        "composite": 32.6,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 77.2,
-        "huggingface": null,
-        "composite": 77.2,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 47.6,
-        "huggingface": null,
-        "composite": 47.6,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      }
     },
     {
       "name": "01-ai/Yi-1.5-34B-Chat",
@@ -10180,9 +10223,9 @@
       },
       "sources_present": 1,
       "coding": {
-        "benchlm": 27.3,
+        "benchlm": 27.2,
         "huggingface": null,
-        "composite": 27.3,
+        "composite": 27.2,
         "split": null
       },
       "reasoning": {
@@ -10311,9 +10354,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 44.5,
+        "benchlm": 44.6,
         "huggingface": null,
-        "composite": 44.5,
+        "composite": 44.6,
         "split": null
       },
       "math": {
@@ -10585,8 +10628,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v3.2",
-        "input": 0.28,
-        "output": 0.42,
+        "input": 0.26,
+        "output": 0.38,
         "free_route": false
       },
       "listed": "2025-12-01"
@@ -11519,49 +11562,6 @@
       }
     },
     {
-      "name": "Solar Pro 3",
-      "names": [
-        "Solar Pro 3"
-      ],
-      "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": 47.2,
-        "huggingface": null,
-        "composite": 47.2,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 28.9,
-        "huggingface": null,
-        "composite": 28.9,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "upstage/solar-pro-3",
-        "input": 0.15,
-        "output": 0.6,
-        "free_route": false
-      },
-      "listed": "2026-01-27",
-      "first_seen": "2026-09-29"
-    },
-    {
       "name": "Grok 4.1 Fast",
       "names": [
         "Grok 4.1 Fast"
@@ -11630,6 +11630,43 @@
         "composite": null,
         "split": null
       }
+    },
+    {
+      "name": "Solar Pro 3",
+      "names": [
+        "Solar Pro 3"
+      ],
+      "reliability": {
+        "benchlm": 0.5,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": 47.2,
+        "huggingface": null,
+        "composite": 47.2,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 28.8,
+        "huggingface": null,
+        "composite": 28.8,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "first_seen": "2026-09-29",
+      "listed": "2026-01-27"
     },
     {
       "name": "CohereLabs/c4ai-command-r-v01",
@@ -12788,9 +12825,9 @@
         "split": null
       },
       "knowledge": {
-        "benchlm": 30.6,
+        "benchlm": 30.7,
         "huggingface": null,
-        "composite": 30.6,
+        "composite": 30.7,
         "split": null
       },
       "math": {
@@ -13427,6 +13464,49 @@
       "listed": "2025-10-15"
     },
     {
+      "name": "Qwen2.5 Coder 32B Instruct",
+      "names": [
+        "Qwen2.5 Coder 32B Instruct"
+      ],
+      "reliability": {
+        "benchlm": 0.25,
+        "huggingface": 0.0
+      },
+      "sources_present": 1,
+      "coding": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "reasoning": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "knowledge": {
+        "benchlm": 24,
+        "huggingface": null,
+        "composite": 24,
+        "split": null
+      },
+      "math": {
+        "benchlm": null,
+        "huggingface": null,
+        "composite": null,
+        "split": null
+      },
+      "price": {
+        "id": "qwen/qwen-2.5-coder-32b-instruct",
+        "input": 0.66,
+        "output": 1,
+        "free_route": false
+      },
+      "listed": "2024-11-11",
+      "first_seen": "2026-10-29"
+    },
+    {
       "name": "ibm-granite/granite-3.1-2b-base",
       "names": [
         "ibm-granite/granite-3.1-2b-base"
@@ -13460,49 +13540,6 @@
         "composite": null,
         "split": null
       }
-    },
-    {
-      "name": "Qwen2.5 Coder 32B Instruct",
-      "names": [
-        "Qwen2.5 Coder 32B Instruct"
-      ],
-      "reliability": {
-        "benchlm": 0.25,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 23.9,
-        "huggingface": null,
-        "composite": 23.9,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "qwen/qwen-2.5-coder-32b-instruct",
-        "input": 0.66,
-        "output": 1,
-        "free_route": false
-      },
-      "listed": "2024-11-11",
-      "first_seen": "2026-10-29"
     },
     {
       "name": "EleutherAI/llemma_7b",
@@ -14024,49 +14061,6 @@
       }
     },
     {
-      "name": "GPT-4o mini",
-      "names": [
-        "GPT-4o mini"
-      ],
-      "reliability": {
-        "benchlm": 0.5,
-        "huggingface": 0.0
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": 8.9,
-        "huggingface": null,
-        "composite": 8.9,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": 20.2,
-        "huggingface": null,
-        "composite": 20.2,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "price": {
-        "id": "openai/gpt-4o-mini",
-        "input": 0.15,
-        "output": 0.6,
-        "free_route": false
-      },
-      "listed": "2024-07-18",
-      "first_seen": "2026-10-29"
-    },
-    {
       "name": "ibm-granite/granite-3.1-1b-a400m-base",
       "names": [
         "ibm-granite/granite-3.1-1b-a400m-base"
@@ -14250,8 +14244,8 @@
     }
   ],
   "latest": {
-    "name": "Gemini 4 Carbon",
-    "date": "2026-10-29",
+    "name": "Kimi K3.1 Pro",
+    "date": "2026-10-30",
     "kind": "arrived"
   },
   "releases": [
@@ -14268,13 +14262,6 @@
       "listed": "2026-10-26",
       "input": 1,
       "output": 5
-    },
-    {
-      "name": "Kimi K3.1 Pro",
-      "id": "moonshotai/kimi-k3.1-pro",
-      "listed": "2026-10-23",
-      "input": 2,
-      "output": 10
     },
     {
       "name": "Glimpse",
@@ -14296,34 +14283,6 @@
       "listed": "2026-10-16",
       "input": 0.1,
       "output": 0.35
-    },
-    {
-      "name": "Pareto 26.10",
-      "id": "unbiased/pareto-26.10",
-      "listed": "2026-10-15",
-      "input": 0.8,
-      "output": 3.2
-    },
-    {
-      "name": "Nemotron 3.5 Super VL",
-      "id": "nvidia/nemotron-3.5-super-vl",
-      "listed": "2026-10-15",
-      "input": 0.15,
-      "output": 0.5
-    },
-    {
-      "name": "Moondream 3.1",
-      "id": "moondream/moondream3.1-9b-a2b",
-      "listed": "2026-10-15",
-      "input": 0.3,
-      "output": 2.5
-    },
-    {
-      "name": "Moondream 3 Preview",
-      "id": "moondream/moondream3-preview",
-      "listed": "2026-10-15",
-      "input": 0.3,
-      "output": 2.5
     }
   ]
 }
