@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-22T06:10:10-06:00",
+  "fetched": "2026-11-23T06:10:10-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -13,7 +13,7 @@
       "url": "https://benchlm.ai/api/data/leaderboard",
       "attribution": "https://benchlm.ai",
       "license": "CC BY-NC 4.0",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "models": 195,
       "metrics": [
         {
@@ -147,7 +147,7 @@
       "url": "https://openrouter.ai/api/v1/models",
       "role": "price",
       "unit": "USD per million tokens",
-      "models": 148
+      "models": 149
     },
     "makers": {
       "ok": false,
@@ -6661,8 +6661,14 @@
         "composite": null,
         "split": null
       },
-      "first_seen": "2026-11-20",
-      "listed": "2026-08-14"
+      "price": {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "input": 0,
+        "output": 0,
+        "free_route": true
+      },
+      "listed": "2026-08-14",
+      "first_seen": "2026-11-20"
     },
     {
       "name": "Phi-4",
@@ -7886,8 +7892,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.3-flash",
-        "input": 0.15,
-        "output": 0.5,
+        "input": 0.0399,
+        "output": 0.0784,
         "free_route": false
       },
       "listed": "2026-08-26"
@@ -8116,8 +8122,8 @@
       },
       "price": {
         "id": "qwen/qwen3.6-35b-a3b",
-        "input": 0.1,
-        "output": 0.9,
+        "input": 0.05,
+        "output": 0.7,
         "free_route": false
       },
       "listed": "2026-04-27"
@@ -8420,8 +8426,8 @@
       },
       "price": {
         "id": "openai/gpt-oss-20b",
-        "input": 0.075,
-        "output": 0.3,
+        "input": 0.03,
+        "output": 0.13,
         "free_route": false
       },
       "listed": "2025-08-05"
@@ -11392,8 +11398,8 @@
       },
       "price": {
         "id": "openai/gpt-oss-120b",
-        "input": 0.09,
-        "output": 0.36,
+        "input": 0.05,
+        "output": 0.25,
         "free_route": false
       },
       "listed": "2025-08-05"
@@ -13599,8 +13605,8 @@
       },
       "price": {
         "id": "google/gemma-4-26b-a4b-it",
-        "input": 0.0675,
-        "output": 0.225,
+        "input": 0.09,
+        "output": 0.3,
         "free_route": true
       },
       "listed": "2026-04-03"
@@ -14415,7 +14421,7 @@
       "price": {
         "id": "google/gemma-3-27b-it",
         "input": 0.08,
-        "output": 0.45,
+        "output": 0.16,
         "free_route": false
       },
       "listed": "2025-03-12"
@@ -15505,9 +15511,9 @@
     }
   ],
   "latest": {
-    "name": "FINAL-Bench/Darwin-760B-RSI",
-    "date": "2026-11-22",
-    "kind": "arrived"
+    "name": "Inkling 2 Mini",
+    "date": "2026-11-21",
+    "kind": "listed"
   },
   "releases": [
     {
