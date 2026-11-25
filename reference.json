@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-24T06:10:09-06:00",
+  "fetched": "2026-11-25T06:10:10-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -69,7 +69,7 @@
         {
           "id": "cais/hle",
           "category": "reasoning",
-          "rows": 108,
+          "rows": 107,
           "ok": true
         },
         {
@@ -137,7 +137,7 @@
           "category": "reasoning",
           "low": 8.12,
           "high": 62.5,
-          "n": 75,
+          "n": 74,
           "spread": true
         }
       ]
@@ -147,7 +147,7 @@
       "url": "https://openrouter.ai/api/v1/models",
       "role": "price",
       "unit": "USD per million tokens",
-      "models": 147
+      "models": 144
     },
     "makers": {
       "ok": false,
@@ -157,9 +157,9 @@
   "aligned": 52,
   "models": [
     {
-      "name": "PCL-RSI-lab/Seshat-agent",
+      "name": "PCL-RSI-lab/Seshat-agent-pro",
       "names": [
-        "PCL-RSI-lab/Seshat-agent"
+        "PCL-RSI-lab/Seshat-agent-pro"
       ],
       "reliability": {
         "benchlm": 0.0,
@@ -190,7 +190,7 @@
         "composite": null,
         "split": null
       },
-      "first_seen": "2026-10-28"
+      "first_seen": "2026-11-25"
     },
     {
       "name": "FINAL-Bench/Darwin-180B-RSI",
@@ -4504,8 +4504,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4.1-flash-1017",
-        "input": 0.03,
-        "output": 0.2,
+        "input": 0.15,
+        "output": 0.6,
         "free_route": false
       },
       "listed": "2026-10-17",
@@ -4816,7 +4816,7 @@
       },
       "price": {
         "id": "moonshotai/kimi-k3",
-        "input": 0.2,
+        "input": 0.192,
         "output": 16,
         "free_route": false
       },
@@ -5053,8 +5053,8 @@
       },
       "price": {
         "id": "minimax/minimax-m2.5",
-        "input": 0.27,
-        "output": 0.95,
+        "input": 0.3,
+        "output": 1.2,
         "free_route": false
       },
       "listed": "2026-02-12"
@@ -6539,8 +6539,8 @@
       },
       "price": {
         "id": "z-ai/glm-4.5-air",
-        "input": 0.13,
-        "output": 0.85,
+        "input": 0.14,
+        "output": 0.86,
         "free_route": false
       },
       "listed": "2025-07-25"
@@ -6727,14 +6727,8 @@
         "composite": null,
         "split": null
       },
-      "price": {
-        "id": "dots-studio/dots-3-note-preview:free",
-        "input": 0,
-        "output": 0,
-        "free_route": true
-      },
-      "listed": "2026-08-14",
-      "first_seen": "2026-11-20"
+      "first_seen": "2026-11-20",
+      "listed": "2026-08-14"
     },
     {
       "name": "Phi-4",
@@ -8082,42 +8076,6 @@
       }
     },
     {
-      "name": "inference-optimization/GLM-5.3-Flash-MXFP4xFP8",
-      "names": [
-        "inference-optimization/GLM-5.3-Flash-MXFP4xFP8"
-      ],
-      "reliability": {
-        "benchlm": 0.0,
-        "huggingface": 0.25
-      },
-      "sources_present": 1,
-      "coding": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "reasoning": {
-        "benchlm": null,
-        "huggingface": 55.3,
-        "composite": 55.3,
-        "split": null
-      },
-      "knowledge": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "math": {
-        "benchlm": null,
-        "huggingface": null,
-        "composite": null,
-        "split": null
-      },
-      "first_seen": "2026-11-12"
-    },
-    {
       "name": "tencent/Hy4-flash",
       "names": [
         "tencent/Hy4-flash"
@@ -8269,8 +8227,8 @@
       },
       "price": {
         "id": "qwen/qwen3.6-35b-a3b",
-        "input": 0.05,
-        "output": 0.7,
+        "input": 0.1,
+        "output": 0.89,
         "free_route": false
       },
       "listed": "2026-04-27"
@@ -9153,12 +9111,6 @@
         "huggingface": null,
         "composite": null,
         "split": null
-      },
-      "price": {
-        "id": "xiaomi/mimo-v2.5",
-        "input": 0.4,
-        "output": 2,
-        "free_route": false
       },
       "listed": "2026-04-22"
     },
@@ -14142,12 +14094,6 @@
         "composite": null,
         "split": null
       },
-      "price": {
-        "id": "mistralai/mistral-medium-3",
-        "input": 0.44,
-        "output": 2.2,
-        "free_route": false
-      },
       "listed": "2025-05-07"
     },
     {
@@ -15717,11 +15663,32 @@
     }
   ],
   "latest": {
-    "name": "Aleph-Alpha/Kolibri-1.1",
-    "date": "2026-11-24",
+    "name": "PCL-RSI-lab/Seshat-agent-pro",
+    "date": "2026-11-25",
     "kind": "arrived"
   },
   "releases": [
+    {
+      "name": "Solar Pro 4 Contributor",
+      "id": "upstage/solar-pro-4-contributor",
+      "listed": "2026-11-24",
+      "input": 0.09,
+      "output": 0.36
+    },
+    {
+      "name": "Solar Mini 4.5 (Preview)",
+      "id": "upstage/solar-mini-4-5",
+      "listed": "2026-11-24",
+      "input": 0.01,
+      "output": 0.04
+    },
+    {
+      "name": "MiMo-V2.6-Flash-MOPD",
+      "id": "xiaomi/mimo-v2.6-flash-mopd",
+      "listed": "2026-11-23",
+      "input": 0.5,
+      "output": 1
+    },
     {
       "name": "DaisyRose 27B",
       "id": "radixark/daisyrose-27b",
@@ -15749,20 +15716,6 @@
       "listed": "2026-11-17",
       "input": 8,
       "output": 40
-    },
-    {
-      "name": "Nex-N2.6",
-      "id": "nex-agi/nex-n2.6",
-      "listed": "2026-11-10",
-      "input": 0.12,
-      "output": 0.4
-    },
-    {
-      "name": "ERNIE-Light-DT-1.0",
-      "id": "baidu/ernie-light-dt-1.0-intl",
-      "listed": "2026-11-10",
-      "input": 1.13,
-      "output": 3.94
     }
   ]
 }
