@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-25T06:10:10-06:00",
+  "fetched": "2026-11-26T06:10:10-06:00",
   "scale": "BenchLM and Hugging Face each keep their own score. A fraction sitting on a percent board is turned into points first. Repeated rows for one name are averaged, and so are the benchmarks in one category. The composite is the average of the scores that were present. The split is the distance between the highest and the lowest of those scores. This is not a Night Grade night.",
   "categories": [
     "coding",
@@ -1845,8 +1845,8 @@
       },
       "price": {
         "id": "qwen/qwen3.5-397b-a17b",
-        "input": 0.45,
-        "output": 3,
+        "input": 0.5,
+        "output": 3.6,
         "free_route": false
       },
       "listed": "2026-02-16"
@@ -3101,7 +3101,7 @@
       },
       "price": {
         "id": "reflection/beam-1.0-501b-a23b",
-        "input": 0.25,
+        "input": 0.3,
         "output": 1,
         "free_route": false
       },
@@ -4461,8 +4461,8 @@
       },
       "price": {
         "id": "deepseek/deepseek-v4-pro",
-        "input": 1.28,
-        "output": 2.56,
+        "input": 0.8882,
+        "output": 1.5082,
         "free_route": false
       },
       "listed": "2026-04-24"
@@ -6539,8 +6539,8 @@
       },
       "price": {
         "id": "z-ai/glm-4.5-air",
-        "input": 0.14,
-        "output": 0.86,
+        "input": 0.2,
+        "output": 1.1,
         "free_route": false
       },
       "listed": "2025-07-25"
@@ -7990,8 +7990,8 @@
       },
       "price": {
         "id": "z-ai/glm-5.3-flash",
-        "input": 0.12,
-        "output": 0.38,
+        "input": 0.15,
+        "output": 0.5,
         "free_route": false
       },
       "listed": "2026-08-26"
@@ -8376,8 +8376,8 @@
       },
       "price": {
         "id": "qwen/qwen3.8-27b",
-        "input": 0.035,
-        "output": 1.5,
+        "input": 0.06,
+        "output": 1.96,
         "free_route": false
       },
       "listed": "2026-08-14"
@@ -14501,7 +14501,7 @@
       "price": {
         "id": "google/gemma-3-27b-it",
         "input": 0.08,
-        "output": 0.16,
+        "output": 0.45,
         "free_route": false
       },
       "listed": "2025-03-12"
@@ -15663,9 +15663,9 @@
     }
   ],
   "latest": {
-    "name": "PCL-RSI-lab/Seshat-agent-pro",
-    "date": "2026-11-25",
-    "kind": "arrived"
+    "name": "Inkling 2 Mini",
+    "date": "2026-11-21",
+    "kind": "listed"
   },
   "releases": [
     {
